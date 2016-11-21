@@ -15,11 +15,8 @@ limitations under the License.
 */
 
 using Canister.Interfaces;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 using SerialBox.BaseClasses;
 using System;
-using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Json;
 using System.Text;
@@ -60,7 +57,7 @@ namespace SerialBox.Default
         /// <summary>
         /// JSONP regex filter
         /// </summary>
-        private static Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        private static Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.IgnoreCase);
 
         /// <summary>
         /// Deserializes the data
@@ -96,17 +93,8 @@ namespace SerialBox.Default
                 var Serializer = new DataContractJsonSerializer(data.GetType());
                 Serializer.WriteObject(Stream, data);
                 Stream.Flush();
-                ReturnValue = Encoding.UTF8.GetString(Stream.ToArray());
-                var CurrentContext = Bootstrapper.Resolve<IActionContextAccessor>()?.ActionContext?.HttpContext;
-                if (CurrentContext != null)
-                {
-                    HttpRequest Request = CurrentContext.Request;
-                    if (!string.IsNullOrEmpty(Request.Query["callback"]) || !string.IsNullOrEmpty(Request.Query["jsonp"]))
-                    {
-                        string Callback = string.IsNullOrEmpty(Request.Query["callback"]) ? Request.Query["jsonp"] : Request.Query["callback"];
-                        ReturnValue = string.Format(CultureInfo.InvariantCulture, "{0}({1});", Callback, ReturnValue);
-                    }
-                }
+                var ResultingArray = Stream.ToArray();
+                ReturnValue = Encoding.UTF8.GetString(ResultingArray, 0, ResultingArray.Length);
             }
             return ReturnValue;
         }

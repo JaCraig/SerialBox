@@ -12,14 +12,12 @@
   },
   "dependencies": {
     "Canister.IoC": "1.0.26",
-    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
     "NETStandard.Library": "1.6.0",
     "System.Runtime.Serialization.Json": "4.0.2",
-    "Microsoft.AspNetCore.Mvc": "1.0.1",
     "System.Xml.XmlSerializer": "4.0.11"
   },
   "frameworks": {
-    "netstandard1.6": {
+    "netstandard1.1": {
       "imports": "dnxcore50"
     }
   },

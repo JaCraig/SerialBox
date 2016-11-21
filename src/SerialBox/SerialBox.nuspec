@@ -15,6 +15,8 @@
     <dependencies>
       <dependency id="NETStandard.Library" version="1.6.0" />
       <dependency id="Canister.IoC" version="1.0.26" />
+      <dependency id="System.Runtime.Serialization.Json" version="4.0.2" />
+      <dependency id="System.Xml.XmlSerializer" version="4.0.11" />
     </dependencies>
   </metadata>
   <files>

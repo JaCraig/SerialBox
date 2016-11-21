@@ -84,7 +84,8 @@ namespace SerialBox.Default
                 var Serializer = new XmlSerializer(objectType);
                 Serializer.Serialize(Stream, data);
                 Stream.Flush();
-                return new UTF8Encoding(false).GetString(Stream.ToArray());
+                var ResultingArray = Stream.ToArray();
+                return new UTF8Encoding(false).GetString(ResultingArray, 0, ResultingArray.Length);
             }
         }
     }
