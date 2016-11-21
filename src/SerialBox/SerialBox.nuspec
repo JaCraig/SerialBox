@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>SerialBox</id>
+    <version>$version$</version>
+    <title>SerialBox</title>
+    <authors>James Craig</authors>
+    <owners>James Craig</owners>
+    <licenseUrl>https://github.com/JaCraig/SerialBox/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JaCraig/SerialBox</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Serialization JSON CSV binary Deserialization</tags>
+    <dependencies>
+      <dependency id="NETStandard.Library" version="1.6.0" />
+      <dependency id="Canister.IoC" version="1.0.26" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.6\SerialBox.dll" target="lib\netstandard1.6\SerialBox.dll" />
+    <file src="bin\Release\netstandard1.6\SerialBox.xml" target="lib\netstandard1.6\SerialBox.xml" />
+  </files>
+</package>
