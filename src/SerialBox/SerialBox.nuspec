@@ -20,7 +20,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\netstandard1.6\SerialBox.dll" target="lib\netstandard1.6\SerialBox.dll" />
-    <file src="bin\Release\netstandard1.6\SerialBox.xml" target="lib\netstandard1.6\SerialBox.xml" />
+    <file src="bin\Release\netstandard1.1\SerialBox.dll" target="lib\netstandard1.1\SerialBox.dll" />
+    <file src="bin\Release\netstandard1.1\SerialBox.xml" target="lib\netstandard1.1\SerialBox.xml" />
   </files>
 </package>
