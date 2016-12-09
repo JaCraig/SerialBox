@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 using Canister.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 using SerialBox.Interfaces;
 
 namespace SerialBox.Module
@@ -39,8 +40,7 @@ namespace SerialBox.Module
             if (bootstrapper == null)
                 return;
             bootstrapper.RegisterAll<ISerializer>();
-            var Serializers = bootstrapper.ResolveAll<ISerializer>();
-            bootstrapper.Register(new SerialBox(Serializers));
+            bootstrapper.Register<SerialBox>(ServiceLifetime.Singleton);
         }
     }
 }
