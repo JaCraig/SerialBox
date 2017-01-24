@@ -14,7 +14,7 @@
     <tags>Serialization JSON CSV binary Deserialization</tags>
     <dependencies>
       <dependency id="NETStandard.Library" version="1.6.1" />
-      <dependency id="Canister.IoC" version="1.0.31" />
+      <dependency id="Canister.IoC" version="1.0.35" />
       <dependency id="System.Runtime.Serialization.Json" version="4.3.0" />
       <dependency id="System.Xml.XmlSerializer" version="4.3.0" />
     </dependencies>

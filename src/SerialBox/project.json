@@ -11,7 +11,7 @@
     "tags": [ "Serialization", "JSON", "CSV", "binary", "Deserialization" ]
   },
   "dependencies": {
-    "Canister.IoC": "1.0.31",
+    "Canister.IoC": "1.0.35",
     "NETStandard.Library": "1.6.1",
     "System.Runtime.Serialization.Json": "4.3.0",
     "System.Xml.XmlSerializer": "4.3.0"

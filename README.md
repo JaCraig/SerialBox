@@ -8,7 +8,9 @@ SerialBox is a library designed to simplify serialization in .Net. By default it
 
 The system relies on an IoC wrapper called [Canister](https://github.com/JaCraig/Canister). While Canister has a built in IoC container, it's purpose is to actually wrap your container of choice in a way that simplifies setup and usage for other libraries that don't want to be tied to a specific IoC container. SerialBox uses it to detect and pull in serialization providers. As such you must set up Canister in order to use SerialBox:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>(), typeof(SerialBox).GetTypeInfo().Assembly);
+    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
+                    .RegisterSerialBox()
+                    .Build();
 	
 This line is required prior to using the extension methods for the first time. Once Canister is set up, you can call the extension methods provided:
 
@@ -46,7 +48,10 @@ The system comes with JSON and XML serialization, however you may wish to add ot
 	
 After the class is created, you must tell Canister where to look for it. So modify the initialization line accordingly:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>(), typeof(SerialBox).GetTypeInfo().Assembly, typeof(MySerializer).GetTypeInfo().Assembly);
+    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
+                    .RegisterSerialBox()
+					.AddAssembly(typeof(MySerializer).GetTypeInfo().Assembly)
+                    .Build();
 	
 From there the system will find the new provider and use it when called.
 
@@ -69,7 +74,10 @@ By default the system uses the built in JSON and XML providers in .Net. However 
 	
 After the class is created, you must tell Canister where to look for it. So modify the initialization line accordingly:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>(), typeof(SerialBox).GetTypeInfo().Assembly, typeof(MySerializer).GetTypeInfo().Assembly);
+    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
+                    .RegisterSerialBox()
+					.AddAssembly(typeof(MySerializer).GetTypeInfo().Assembly)
+                    .Build();
 	
 From there the system will override the default JSON provider with your own.
 
