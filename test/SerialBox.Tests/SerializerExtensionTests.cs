@@ -33,7 +33,7 @@ namespace SerialBox.Tests
             var TestObj = new Temp() { A = 100 };
             var Value = TestObj.Serialize<string, Temp>("text/xml");
             var TestObj2 = Value.Deserialize<Temp, string>("text/xml");
-            Assert.Equal(@"﻿<?xml version=""1.0"" encoding=""utf-8""?>
+            Assert.Equal(@"<?xml version=""1.0""?>
 <Temp xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
   <A>100</A>
 </Temp>", Value);
@@ -46,7 +46,7 @@ namespace SerialBox.Tests
             var TestObj = new Temp() { A = 100 };
             var Value = TestObj.Serialize<string, Temp>(SerializationType.XML);
             var TestObj2 = Value.Deserialize<Temp, string>(SerializationType.XML);
-            Assert.Equal(@"﻿<?xml version=""1.0"" encoding=""utf-8""?>
+            Assert.Equal(@"<?xml version=""1.0""?>
 <Temp xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
   <A>100</A>
 </Temp>", Value);
