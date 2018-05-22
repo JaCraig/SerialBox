@@ -49,7 +49,7 @@ namespace SerialBox
         /// <summary>
         /// Serializers
         /// </summary>
-        protected IDictionary<string, ISerializer> Serializers { get; private set; }
+        protected IDictionary<string, ISerializer> Serializers { get; }
 
         /// <summary>
         /// Determines if the system can serialize/deserialize the content type

@@ -59,7 +59,7 @@ namespace SerialBox.BaseClasses
         /// Gets the bootstrapper.
         /// </summary>
         /// <value>The bootstrapper.</value>
-        protected IBootstrapper Bootstrapper { get; private set; }
+        protected IBootstrapper Bootstrapper { get; }
 
         /// <summary>
         /// Deserializes the data

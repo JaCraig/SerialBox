@@ -46,7 +46,7 @@ namespace SerialBox.Enums
         /// Gets or sets the name.
         /// </summary>
         /// <value>The name.</value>
-        private string Name { get; set; }
+        private string Name { get; }
 
         /// <summary>
         /// Performs an explicit conversion from <see cref="string"/> to <see cref="SerializationType"/>.

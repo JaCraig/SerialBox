@@ -40,6 +40,11 @@ namespace SerialBox.Default
         }
 
         /// <summary>
+        /// JSONP regex filter
+        /// </summary>
+        private static readonly Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.IgnoreCase);
+
+        /// <summary>
         /// Content type (MIME type)
         /// </summary>
         public override string ContentType => "application/json";
@@ -53,11 +58,6 @@ namespace SerialBox.Default
         /// Name
         /// </summary>
         public override string Name => "JSON";
-
-        /// <summary>
-        /// JSONP regex filter
-        /// </summary>
-        private static Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.IgnoreCase);
 
         /// <summary>
         /// Deserializes the data
