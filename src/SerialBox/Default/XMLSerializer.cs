@@ -58,15 +58,13 @@ namespace SerialBox.Default
         /// <param name="objectType">Object type</param>
         /// <param name="data">Data to deserialize</param>
         /// <returns>The deserialized data</returns>
-        public override object Deserialize(Type objectType, string data)
+        public override object? Deserialize(Type objectType, string data)
         {
             if (string.IsNullOrEmpty(data) || objectType == null)
                 return null;
-            using (MemoryStream Stream = new MemoryStream(Encoding.UTF8.GetBytes(data)))
-            {
-                var Serializer = new XmlSerializer(objectType);
-                return Serializer.Deserialize(Stream);
-            }
+            using var Stream = new MemoryStream(Encoding.UTF8.GetBytes(data));
+            var Serializer = new XmlSerializer(objectType);
+            return Serializer.Deserialize(Stream);
         }
 
         /// <summary>
@@ -78,15 +76,13 @@ namespace SerialBox.Default
         public override string Serialize(Type objectType, object data)
         {
             if (data == null || objectType == null)
-                return null;
-            using (MemoryStream Stream = new MemoryStream())
-            {
-                var Serializer = new XmlSerializer(objectType);
-                Serializer.Serialize(Stream, data);
-                Stream.Flush();
-                var ResultingArray = Stream.ToArray();
-                return new UTF8Encoding(false).GetString(ResultingArray, 0, ResultingArray.Length);
-            }
+                return null!;
+            using var Stream = new MemoryStream();
+            var Serializer = new XmlSerializer(objectType);
+            Serializer.Serialize(Stream, data);
+            Stream.Flush();
+            var ResultingArray = Stream.ToArray();
+            return new UTF8Encoding(false).GetString(ResultingArray, 0, ResultingArray.Length);
         }
     }
 }

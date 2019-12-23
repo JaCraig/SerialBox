@@ -16,6 +16,7 @@ limitations under the License.
 
 using SerialBox.Enums;
 using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 
 namespace SerialBox
 {
@@ -46,11 +47,12 @@ namespace SerialBox
         /// <param name="data">Data to deserialize</param>
         /// <param name="contentType">Content type</param>
         /// <returns>The deserialized object</returns>
+        [return: MaybeNull]
         public static R Deserialize<R, T>(this T data, SerializationType contentType)
         {
-            contentType = contentType ?? SerializationType.JSON;
-            var TempManager = Canister.Builder.Bootstrapper.Resolve<SerialBox>();
-            return TempManager == null ? default(R) : (R)TempManager.Deserialize<T>(data, typeof(R), contentType);
+            contentType ??= SerializationType.JSON;
+            var TempManager = Canister.Builder.Bootstrapper?.Resolve<SerialBox>();
+            return (R)TempManager?.Deserialize(data, typeof(R), contentType)! ?? default;
         }
 
         /// <summary>
@@ -76,9 +78,9 @@ namespace SerialBox
         /// <returns>The serialized object</returns>
         public static R Serialize<R, T>(this T serializationObject, SerializationType contentType)
         {
-            contentType = contentType ?? SerializationType.JSON;
-            var TempManager = Canister.Builder.Bootstrapper.Resolve<SerialBox>();
-            return TempManager == null ? default(R) : TempManager.Serialize<T, R>(serializationObject, contentType);
+            contentType ??= SerializationType.JSON;
+            var TempManager = Canister.Builder.Bootstrapper?.Resolve<SerialBox>();
+            return TempManager == null ? default : TempManager.Serialize<T, R>(serializationObject, contentType);
         }
     }
 }

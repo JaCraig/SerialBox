@@ -65,16 +65,14 @@ namespace SerialBox.Default
         /// <param name="objectType">Object type</param>
         /// <param name="data">Data to deserialize</param>
         /// <returns>The deserialized data</returns>
-        public override object Deserialize(Type objectType, string data)
+        public override object? Deserialize(Type objectType, string data)
         {
             if (string.IsNullOrEmpty(data) || objectType == null)
                 return null;
             data = JsonPRegex.Replace(data, "$1");
-            using (MemoryStream Stream = new MemoryStream(Encoding.UTF8.GetBytes(data)))
-            {
-                var Serializer = new DataContractJsonSerializer(objectType);
-                return Serializer.ReadObject(Stream);
-            }
+            using var Stream = new MemoryStream(Encoding.UTF8.GetBytes(data));
+            var Serializer = new DataContractJsonSerializer(objectType);
+            return Serializer.ReadObject(Stream);
         }
 
         /// <summary>
@@ -86,9 +84,9 @@ namespace SerialBox.Default
         public override string Serialize(Type objectType, object data)
         {
             if (data == null || objectType == null)
-                return null;
-            string ReturnValue = "";
-            using (MemoryStream Stream = new MemoryStream())
+                return null!;
+            var ReturnValue = "";
+            using (var Stream = new MemoryStream())
             {
                 var Serializer = new DataContractJsonSerializer(data.GetType());
                 Serializer.WriteObject(Stream, data);

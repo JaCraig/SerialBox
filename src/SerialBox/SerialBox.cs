@@ -18,6 +18,7 @@ using SerialBox.Enums;
 using SerialBox.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
@@ -34,10 +35,10 @@ namespace SerialBox
         /// <param name="serializers">The serializers.</param>
         public SerialBox(IEnumerable<ISerializer> serializers)
         {
-            serializers = serializers ?? new List<ISerializer>();
+            serializers ??= new List<ISerializer>();
             Serializers = serializers.Where(x => !x.GetType().Namespace.StartsWith("SERIALBOX", StringComparison.OrdinalIgnoreCase))
                                           .ToDictionary(x => x.ContentType);
-            foreach (ISerializer Serializer in serializers.Where(x => x.GetType()
+            foreach (var Serializer in serializers.Where(x => x.GetType()
                                                                        .Namespace
                                                                        .StartsWith("SERIALBOX", StringComparison.OrdinalIgnoreCase)))
             {
@@ -71,10 +72,11 @@ namespace SerialBox
         /// <param name="data">Data to deserialize</param>
         /// <param name="contentType">Content type (MIME type)</param>
         /// <returns>The deserialized object</returns>
-        public R Deserialize<T, R>(T data, SerializationType contentType = null)
+        [return: MaybeNull]
+        public R Deserialize<T, R>(T data, SerializationType? contentType = null)
         {
-            contentType = contentType ?? SerializationType.JSON;
-            return (R)Deserialize<T>(data, typeof(R), contentType);
+            contentType ??= SerializationType.JSON;
+            return (R)Deserialize(data, typeof(R), contentType)!;
         }
 
         /// <summary>
@@ -85,9 +87,9 @@ namespace SerialBox
         /// <param name="objectType">Object type requested</param>
         /// <param name="contentType">Content type (MIME type)</param>
         /// <returns>The deserialized object</returns>
-        public object Deserialize<T>(T data, Type objectType, SerializationType contentType = null)
+        public object? Deserialize<T>(T data, Type objectType, SerializationType? contentType = null)
         {
-            contentType = contentType ?? SerializationType.JSON;
+            contentType ??= SerializationType.JSON;
             if (string.IsNullOrEmpty(contentType.ToString()) || objectType == null)
                 return null;
             contentType = (SerializationType)contentType.ToString().Split(';')[0];
@@ -116,28 +118,32 @@ namespace SerialBox
         /// <param name="contentType">Content type (MIME type)</param>
         /// <typeparam name="R">Return type</typeparam>
         /// <returns>The serialized object as a string</returns>
-        public R Serialize<T, R>(T data, SerializationType contentType = null)
+        [return: MaybeNull]
+        public R Serialize<T, R>(T data, SerializationType? contentType = null)
         {
-            contentType = contentType ?? SerializationType.JSON;
+            if (data == default)
+                return default!;
+            contentType ??= SerializationType.JSON;
             return Serialize<R>(data, typeof(T), contentType);
         }
 
         /// <summary>
         /// Serializes the object based on the content type specified
         /// </summary>
-        /// <param name="objectType">Object type</param>
-        /// <param name="data">Object to serialize</param>
-        /// <param name="contentType">Content type (MIME type)</param>
         /// <typeparam name="T">Return type</typeparam>
+        /// <param name="data">Object to serialize</param>
+        /// <param name="objectType">Object type</param>
+        /// <param name="contentType">Content type (MIME type)</param>
         /// <returns>The serialized object as a string</returns>
-        public T Serialize<T>(object data, Type objectType, SerializationType contentType = null)
+        [return: MaybeNull]
+        public T Serialize<T>(object data, Type? objectType, SerializationType? contentType = null)
         {
-            contentType = contentType ?? SerializationType.JSON;
+            contentType ??= SerializationType.JSON;
             if (string.IsNullOrEmpty(contentType) || objectType == null)
-                return default(T);
+                return default!;
             contentType = (SerializationType)contentType.ToString().Split(';')[0];
             if (!Serializers.ContainsKey(contentType) || Serializers[contentType].ReturnType != typeof(T))
-                return default(T);
+                return default!;
             return ((ISerializer<T>)Serializers[contentType]).Serialize(objectType, data);
         }
 
@@ -149,8 +155,8 @@ namespace SerialBox
         {
             var Builder = new StringBuilder();
             Builder.Append("Serializers: ");
-            string Separator = "";
-            foreach (string key in Serializers.Keys.OrderBy(x => x))
+            var Separator = "";
+            foreach (var key in Serializers.Keys.OrderBy(x => x))
             {
                 Builder.AppendFormat("{0}{1}", Separator, Serializers[key].Name);
                 Separator = ",";

@@ -10,22 +10,23 @@
     <Description>SerialBox is a simple serialization wrapper. It acts as a wrapper around various serialization libraries, thus giving them a common interface to deal with.</Description>
     <AssemblyTitle>SerialBox</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SerialBox</AssemblyName>
     <PackageId>SerialBox</PackageId>
     <PackageTags>Serialization;JSON;CSV;binary;Deserialization</PackageTags>
     <PackageProjectUrl>https://github.com/JaCraig/SerialBox</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/JaCraig/SerialBox/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.$(BuildNumber)</Version>
+    <Version>3.0.$(BuildNumber)</Version>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="2.1.2" />
+    <PackageReference Include="Canister.IoC" Version="3.0.0" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
   </ItemGroup>

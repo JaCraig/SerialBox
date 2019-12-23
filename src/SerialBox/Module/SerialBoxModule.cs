@@ -23,7 +23,7 @@ namespace SerialBox.Module
     /// <summary>
     /// SerialBox module
     /// </summary>
-    /// <seealso cref="Canister.Interfaces.IModule"/>
+    /// <seealso cref="IModule"/>
     public class SerialBoxModule : IModule
     {
         /// <summary>

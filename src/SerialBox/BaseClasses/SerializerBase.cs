@@ -67,7 +67,7 @@ namespace SerialBox.BaseClasses
         /// <param name="objectType">Object type</param>
         /// <param name="data">Data to deserialize</param>
         /// <returns>The deserialized data</returns>
-        public abstract object Deserialize(Type objectType, T data);
+        public abstract object? Deserialize(Type objectType, T data);
 
         /// <summary>
         /// Serializes the object

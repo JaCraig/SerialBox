@@ -56,7 +56,7 @@ namespace SerialBox.Interfaces
         /// <param name="objectType">Object type</param>
         /// <param name="data">Data to deserialize</param>
         /// <returns>The deserialized data</returns>
-        object Deserialize(Type objectType, T data);
+        object? Deserialize(Type objectType, T data);
 
         /// <summary>
         /// Serializes the object
