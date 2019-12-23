@@ -121,7 +121,7 @@ namespace SerialBox
         [return: MaybeNull]
         public R Serialize<T, R>(T data, SerializationType? contentType = null)
         {
-            if (data == default)
+            if (data == null)
                 return default!;
             contentType ??= SerializationType.JSON;
             return Serialize<R>(data, typeof(T), contentType);
