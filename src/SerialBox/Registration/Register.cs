@@ -15,13 +15,9 @@ limitations under the License.
 */
 
 using Canister.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 
-namespace SerialBox.Registration
+namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Registration extension methods
@@ -33,9 +29,9 @@ namespace SerialBox.Registration
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
         /// <returns>The bootstrapper</returns>
-        public static IBootstrapper RegisterSerialBox(this IBootstrapper bootstrapper)
+        public static ICanisterConfiguration? RegisterSerialBox(this ICanisterConfiguration? bootstrapper)
         {
-            return bootstrapper.AddAssembly(typeof(Registration).GetTypeInfo().Assembly);
+            return bootstrapper?.AddAssembly(typeof(Registration).GetTypeInfo().Assembly);
         }
     }
 }
