@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Xunit;
+﻿using Xunit;
 
 namespace SerialBox.Tests.BaseClasses
 {
@@ -8,10 +7,6 @@ namespace SerialBox.Tests.BaseClasses
     {
         protected TestBaseClass()
         {
-            if (Canister.Builder.Bootstrapper == null)
-            {
-                new ServiceCollection().AddCanisterModules(configure => configure.RegisterSerialBox());
-            }
         }
     }
 }

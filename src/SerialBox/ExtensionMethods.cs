@@ -14,7 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+using Microsoft.Extensions.DependencyInjection;
 using SerialBox.Enums;
+using System;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 
@@ -26,6 +28,16 @@ namespace SerialBox
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class ExtensionMethods
     {
+        /// <summary>
+        /// The service provider lock
+        /// </summary>
+        private static readonly object ServiceProviderLock = new object();
+
+        /// <summary>
+        /// The service provider
+        /// </summary>
+        private static IServiceProvider ServiceProvider;
+
         /// <summary>
         /// Deserializes the data based on the MIME content type specified (defaults to json)
         /// </summary>
@@ -51,7 +63,7 @@ namespace SerialBox
         public static R Deserialize<R, T>(this T data, SerializationType contentType)
         {
             contentType ??= SerializationType.JSON;
-            var TempManager = Canister.Builder.Bootstrapper?.Resolve<SerialBox>();
+            var TempManager = GetServiceProvider()?.GetService<SerialBox>();
             return (R)TempManager?.Deserialize(data, typeof(R), contentType)! ?? default;
         }
 
@@ -79,8 +91,25 @@ namespace SerialBox
         public static R Serialize<R, T>(this T serializationObject, SerializationType contentType)
         {
             contentType ??= SerializationType.JSON;
-            var TempManager = Canister.Builder.Bootstrapper?.Resolve<SerialBox>();
+            var TempManager = GetServiceProvider()?.GetService<SerialBox>();
             return TempManager == null ? default : TempManager.Serialize<T, R>(serializationObject, contentType);
+        }
+
+        /// <summary>
+        /// Gets the service provider.
+        /// </summary>
+        /// <returns></returns>
+        private static IServiceProvider GetServiceProvider()
+        {
+            if (ServiceProvider is not null)
+                return ServiceProvider;
+            lock (ServiceProviderLock)
+            {
+                if (ServiceProvider is not null)
+                    return ServiceProvider;
+                ServiceProvider = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
+            }
+            return ServiceProvider;
         }
     }
 }

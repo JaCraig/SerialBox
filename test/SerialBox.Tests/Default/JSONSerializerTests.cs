@@ -10,14 +10,14 @@ namespace SerialBox.Tests.Default
         [Fact]
         public void Creation()
         {
-            var Temp = new JSONSerializer(Canister.Builder.Bootstrapper);
+            var Temp = new JSONSerializer();
             Assert.NotNull(Temp);
         }
 
         [Fact]
         public void SerializeDeserialize()
         {
-            var Temp = new JSONSerializer(Canister.Builder.Bootstrapper);
+            var Temp = new JSONSerializer();
             Assert.Equal(new Temp() { A = 10 }.A, ((Temp)Temp.Deserialize(typeof(Temp), Temp.Serialize(typeof(Temp), new Temp() { A = 10 }))).A);
         }
 

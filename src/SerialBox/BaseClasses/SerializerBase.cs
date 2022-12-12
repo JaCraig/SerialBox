@@ -14,7 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using Canister.Interfaces;
 using SerialBox.Interfaces;
 using System;
 
@@ -26,15 +25,6 @@ namespace SerialBox.BaseClasses
     /// <typeparam name="T">Serialized data type</typeparam>
     public abstract class SerializerBase<T> : ISerializer<T>
     {
-        /// <summary>
-        /// Constructor
-        /// </summary>
-        /// <param name="bootstrapper">The bootstrapper.</param>
-        protected SerializerBase(IBootstrapper bootstrapper)
-        {
-            Bootstrapper = bootstrapper;
-        }
-
         /// <summary>
         /// Content type (MIME type)
         /// </summary>
@@ -54,12 +44,6 @@ namespace SerialBox.BaseClasses
         /// Return type
         /// </summary>
         public Type ReturnType => typeof(T);
-
-        /// <summary>
-        /// Gets the bootstrapper.
-        /// </summary>
-        /// <value>The bootstrapper.</value>
-        protected IBootstrapper Bootstrapper { get; }
 
         /// <summary>
         /// Deserializes the data

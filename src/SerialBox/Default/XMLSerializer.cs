@@ -14,7 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using Canister.Interfaces;
 using SerialBox.BaseClasses;
 using System;
 using System.IO;
@@ -31,9 +30,7 @@ namespace SerialBox.Default
         /// <summary>
         /// Initializes a new instance of the <see cref="XMLSerializer"/> class.
         /// </summary>
-        /// <param name="bootstrapper">The bootstrapper.</param>
-        public XMLSerializer(IBootstrapper bootstrapper)
-            : base(bootstrapper)
+        public XMLSerializer()
         {
         }
 

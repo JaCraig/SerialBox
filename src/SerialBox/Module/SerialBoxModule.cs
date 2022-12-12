@@ -35,12 +35,9 @@ namespace SerialBox.Module
         /// Loads the module
         /// </summary>
         /// <param name="bootstrapper">Bootstrapper to register with</param>
-        public void Load(IBootstrapper bootstrapper)
+        public void Load(IServiceCollection bootstrapper)
         {
-            if (bootstrapper == null)
-                return;
-            bootstrapper.RegisterAll<ISerializer>();
-            bootstrapper.Register<SerialBox>(ServiceLifetime.Singleton);
+            bootstrapper?.AddAllTransient<ISerializer>()?.AddSingleton<SerialBox>();
         }
     }
 }

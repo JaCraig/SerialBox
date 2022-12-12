@@ -14,7 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using Canister.Interfaces;
 using SerialBox.BaseClasses;
 using System;
 using System.IO;
@@ -31,20 +30,6 @@ namespace SerialBox.Default
     public class JSONSerializer : SerializerBase<string>
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="JSONSerializer"/> class.
-        /// </summary>
-        /// <param name="bootstrapper">The bootstrapper.</param>
-        public JSONSerializer(IBootstrapper bootstrapper)
-            : base(bootstrapper)
-        {
-        }
-
-        /// <summary>
-        /// JSONP regex filter
-        /// </summary>
-        private static readonly Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.IgnoreCase);
-
-        /// <summary>
         /// Content type (MIME type)
         /// </summary>
         public override string ContentType => "application/json";
@@ -58,6 +43,11 @@ namespace SerialBox.Default
         /// Name
         /// </summary>
         public override string Name => "JSON";
+
+        /// <summary>
+        /// JSONP regex filter
+        /// </summary>
+        private static readonly Regex JsonPRegex = new Regex(@"[^\(]+\(([^\)]*)\);", RegexOptions.IgnoreCase);
 
         /// <summary>
         /// Deserializes the data
