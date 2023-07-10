@@ -1,5 +1,7 @@
 # SerialBox
 
+[![.NET Publish](https://github.com/JaCraig/SerialBox/actions/workflows/dotnet-publish.yml/badge.svg)](https://github.com/JaCraig/SerialBox/actions/workflows/dotnet-publish.yml)
+
 SerialBox is a library designed to simplify serialization in .Net. By default it supports XML and JSON but can be expanded upon to support other serialization targets as well.
 
 ## Basic Usage
