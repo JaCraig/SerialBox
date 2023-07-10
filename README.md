@@ -1,16 +1,12 @@
 # SerialBox
 
-[![Build status](https://ci.appveyor.com/api/projects/status/3q7rqlaju498yw7s?svg=true)](https://ci.appveyor.com/project/JaCraig/serialbox)
-
 SerialBox is a library designed to simplify serialization in .Net. By default it supports XML and JSON but can be expanded upon to support other serialization targets as well.
 
 ## Basic Usage
 
-The system relies on an IoC wrapper called [Canister](https://github.com/JaCraig/Canister). While Canister has a built in IoC container, it's purpose is to actually wrap your container of choice in a way that simplifies setup and usage for other libraries that don't want to be tied to a specific IoC container. SerialBox uses it to detect and pull in serialization providers. As such you must set up Canister in order to use SerialBox:
+uses a library called Canister for registering itself in your ServiceCollection:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
-                    .RegisterSerialBox()
-                    .Build();
+    servicecollection.AddCanisterModules();
 	
 This line is required prior to using the extension methods for the first time. Once Canister is set up, you can call the extension methods provided:
 
@@ -46,14 +42,7 @@ The system comes with JSON and XML serialization, however you may wish to add ot
 		public byte[] Serialize(Type objectType, object data) { ... }
     }
 	
-After the class is created, you must tell Canister where to look for it. So modify the initialization line accordingly:
-
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
-                    .RegisterSerialBox()
-					.AddAssembly(typeof(MySerializer).GetTypeInfo().Assembly)
-                    .Build();
-	
-From there the system will find the new provider and use it when called.
+After the class is created, the system will automatically pick it up and use it.
 
 ## Overriding Serialization Types
 
@@ -72,14 +61,7 @@ By default the system uses the built in JSON and XML providers in .Net. However 
 		public string Serialize(Type objectType, object data) { ... }
     }
 	
-After the class is created, you must tell Canister where to look for it. So modify the initialization line accordingly:
-
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
-                    .RegisterSerialBox()
-					.AddAssembly(typeof(MySerializer).GetTypeInfo().Assembly)
-                    .Build();
-	
-From there the system will override the default JSON provider with your own.
+After the class is created, the system will automatically pick it up and use it.
 
 ## Installation
 
@@ -91,7 +73,6 @@ Install-Package SerialBox
 
 In order to build the library you will require the following as a minimum:
 
-1. Visual Studio 2015 with Update 3
-2. .Net Core 1.0 SDK
+1. Visual Studio 2022
 
 Other than that, just clone the project and you should be able to load the solution and build without too much effort.
