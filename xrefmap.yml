@@ -1,0 +1,721 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.Registration
+  name: Registration
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.Registration
+  fullName: Microsoft.Extensions.DependencyInjection.Registration
+  nameWithType: Registration
+- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  name: RegisterSerialBox(ICanisterConfiguration?)
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterSerialBox_Canister_Interfaces_ICanisterConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  name.vb: RegisterSerialBox(ICanisterConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration?)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  nameWithType: Registration.RegisterSerialBox(ICanisterConfiguration?)
+  nameWithType.vb: Registration.RegisterSerialBox(ICanisterConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox*
+  name: RegisterSerialBox
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterSerialBox_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox
+  nameWithType: Registration.RegisterSerialBox
+- uid: SerialBox
+  name: SerialBox
+  href: api/SerialBox.html
+  commentId: N:SerialBox
+  fullName: SerialBox
+  nameWithType: SerialBox
+- uid: SerialBox.BaseClasses
+  name: SerialBox.BaseClasses
+  href: api/SerialBox.BaseClasses.html
+  commentId: N:SerialBox.BaseClasses
+  fullName: SerialBox.BaseClasses
+  nameWithType: SerialBox.BaseClasses
+- uid: SerialBox.BaseClasses.SerializerBase`1
+  name: SerializerBase<T>
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html
+  commentId: T:SerialBox.BaseClasses.SerializerBase`1
+  name.vb: SerializerBase(Of T)
+  fullName: SerialBox.BaseClasses.SerializerBase<T>
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T)
+  nameWithType: SerializerBase<T>
+  nameWithType.vb: SerializerBase(Of T)
+- uid: SerialBox.BaseClasses.SerializerBase`1.ContentType
+  name: ContentType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_ContentType
+  commentId: P:SerialBox.BaseClasses.SerializerBase`1.ContentType
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.ContentType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).ContentType
+  nameWithType: SerializerBase<T>.ContentType
+  nameWithType.vb: SerializerBase(Of T).ContentType
+- uid: SerialBox.BaseClasses.SerializerBase`1.ContentType*
+  name: ContentType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_ContentType_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.ContentType
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.ContentType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).ContentType
+  nameWithType: SerializerBase<T>.ContentType
+  nameWithType.vb: SerializerBase(Of T).ContentType
+- uid: SerialBox.BaseClasses.SerializerBase`1.Deserialize(System.Type,`0)
+  name: Deserialize(Type, T)
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Deserialize_System_Type__0_
+  commentId: M:SerialBox.BaseClasses.SerializerBase`1.Deserialize(System.Type,`0)
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Deserialize(System.Type, T)
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Deserialize(System.Type, T)
+  nameWithType: SerializerBase<T>.Deserialize(Type, T)
+  nameWithType.vb: SerializerBase(Of T).Deserialize(Type, T)
+- uid: SerialBox.BaseClasses.SerializerBase`1.Deserialize*
+  name: Deserialize
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Deserialize_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.Deserialize
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Deserialize
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Deserialize
+  nameWithType: SerializerBase<T>.Deserialize
+  nameWithType.vb: SerializerBase(Of T).Deserialize
+- uid: SerialBox.BaseClasses.SerializerBase`1.FileType
+  name: FileType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_FileType
+  commentId: P:SerialBox.BaseClasses.SerializerBase`1.FileType
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.FileType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).FileType
+  nameWithType: SerializerBase<T>.FileType
+  nameWithType.vb: SerializerBase(Of T).FileType
+- uid: SerialBox.BaseClasses.SerializerBase`1.FileType*
+  name: FileType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_FileType_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.FileType
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.FileType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).FileType
+  nameWithType: SerializerBase<T>.FileType
+  nameWithType.vb: SerializerBase(Of T).FileType
+- uid: SerialBox.BaseClasses.SerializerBase`1.Name
+  name: Name
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Name
+  commentId: P:SerialBox.BaseClasses.SerializerBase`1.Name
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Name
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Name
+  nameWithType: SerializerBase<T>.Name
+  nameWithType.vb: SerializerBase(Of T).Name
+- uid: SerialBox.BaseClasses.SerializerBase`1.Name*
+  name: Name
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Name_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.Name
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Name
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Name
+  nameWithType: SerializerBase<T>.Name
+  nameWithType.vb: SerializerBase(Of T).Name
+- uid: SerialBox.BaseClasses.SerializerBase`1.ReturnType
+  name: ReturnType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_ReturnType
+  commentId: P:SerialBox.BaseClasses.SerializerBase`1.ReturnType
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.ReturnType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).ReturnType
+  nameWithType: SerializerBase<T>.ReturnType
+  nameWithType.vb: SerializerBase(Of T).ReturnType
+- uid: SerialBox.BaseClasses.SerializerBase`1.ReturnType*
+  name: ReturnType
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_ReturnType_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.ReturnType
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.ReturnType
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).ReturnType
+  nameWithType: SerializerBase<T>.ReturnType
+  nameWithType.vb: SerializerBase(Of T).ReturnType
+- uid: SerialBox.BaseClasses.SerializerBase`1.Serialize(System.Type,System.Object)
+  name: Serialize(Type, object)
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Serialize_System_Type_System_Object_
+  commentId: M:SerialBox.BaseClasses.SerializerBase`1.Serialize(System.Type,System.Object)
+  name.vb: Serialize(Type, Object)
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Serialize(System.Type, object)
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Serialize(System.Type, Object)
+  nameWithType: SerializerBase<T>.Serialize(Type, object)
+  nameWithType.vb: SerializerBase(Of T).Serialize(Type, Object)
+- uid: SerialBox.BaseClasses.SerializerBase`1.Serialize*
+  name: Serialize
+  href: api/SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_Serialize_
+  commentId: Overload:SerialBox.BaseClasses.SerializerBase`1.Serialize
+  isSpec: "True"
+  fullName: SerialBox.BaseClasses.SerializerBase<T>.Serialize
+  fullName.vb: SerialBox.BaseClasses.SerializerBase(Of T).Serialize
+  nameWithType: SerializerBase<T>.Serialize
+  nameWithType.vb: SerializerBase(Of T).Serialize
+- uid: SerialBox.Default
+  name: SerialBox.Default
+  href: api/SerialBox.Default.html
+  commentId: N:SerialBox.Default
+  fullName: SerialBox.Default
+  nameWithType: SerialBox.Default
+- uid: SerialBox.Default.JSONSerializer
+  name: JSONSerializer
+  href: api/SerialBox.Default.JSONSerializer.html
+  commentId: T:SerialBox.Default.JSONSerializer
+  fullName: SerialBox.Default.JSONSerializer
+  nameWithType: JSONSerializer
+- uid: SerialBox.Default.JSONSerializer.ContentType
+  name: ContentType
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_ContentType
+  commentId: P:SerialBox.Default.JSONSerializer.ContentType
+  fullName: SerialBox.Default.JSONSerializer.ContentType
+  nameWithType: JSONSerializer.ContentType
+- uid: SerialBox.Default.JSONSerializer.ContentType*
+  name: ContentType
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_ContentType_
+  commentId: Overload:SerialBox.Default.JSONSerializer.ContentType
+  isSpec: "True"
+  fullName: SerialBox.Default.JSONSerializer.ContentType
+  nameWithType: JSONSerializer.ContentType
+- uid: SerialBox.Default.JSONSerializer.Deserialize(System.Type,System.String)
+  name: Deserialize(Type, string)
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Deserialize_System_Type_System_String_
+  commentId: M:SerialBox.Default.JSONSerializer.Deserialize(System.Type,System.String)
+  name.vb: Deserialize(Type, String)
+  fullName: SerialBox.Default.JSONSerializer.Deserialize(System.Type, string)
+  fullName.vb: SerialBox.Default.JSONSerializer.Deserialize(System.Type, String)
+  nameWithType: JSONSerializer.Deserialize(Type, string)
+  nameWithType.vb: JSONSerializer.Deserialize(Type, String)
+- uid: SerialBox.Default.JSONSerializer.Deserialize*
+  name: Deserialize
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Deserialize_
+  commentId: Overload:SerialBox.Default.JSONSerializer.Deserialize
+  isSpec: "True"
+  fullName: SerialBox.Default.JSONSerializer.Deserialize
+  nameWithType: JSONSerializer.Deserialize
+- uid: SerialBox.Default.JSONSerializer.FileType
+  name: FileType
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_FileType
+  commentId: P:SerialBox.Default.JSONSerializer.FileType
+  fullName: SerialBox.Default.JSONSerializer.FileType
+  nameWithType: JSONSerializer.FileType
+- uid: SerialBox.Default.JSONSerializer.FileType*
+  name: FileType
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_FileType_
+  commentId: Overload:SerialBox.Default.JSONSerializer.FileType
+  isSpec: "True"
+  fullName: SerialBox.Default.JSONSerializer.FileType
+  nameWithType: JSONSerializer.FileType
+- uid: SerialBox.Default.JSONSerializer.Name
+  name: Name
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Name
+  commentId: P:SerialBox.Default.JSONSerializer.Name
+  fullName: SerialBox.Default.JSONSerializer.Name
+  nameWithType: JSONSerializer.Name
+- uid: SerialBox.Default.JSONSerializer.Name*
+  name: Name
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Name_
+  commentId: Overload:SerialBox.Default.JSONSerializer.Name
+  isSpec: "True"
+  fullName: SerialBox.Default.JSONSerializer.Name
+  nameWithType: JSONSerializer.Name
+- uid: SerialBox.Default.JSONSerializer.Serialize(System.Type,System.Object)
+  name: Serialize(Type, object)
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Serialize_System_Type_System_Object_
+  commentId: M:SerialBox.Default.JSONSerializer.Serialize(System.Type,System.Object)
+  name.vb: Serialize(Type, Object)
+  fullName: SerialBox.Default.JSONSerializer.Serialize(System.Type, object)
+  fullName.vb: SerialBox.Default.JSONSerializer.Serialize(System.Type, Object)
+  nameWithType: JSONSerializer.Serialize(Type, object)
+  nameWithType.vb: JSONSerializer.Serialize(Type, Object)
+- uid: SerialBox.Default.JSONSerializer.Serialize*
+  name: Serialize
+  href: api/SerialBox.Default.JSONSerializer.html#SerialBox_Default_JSONSerializer_Serialize_
+  commentId: Overload:SerialBox.Default.JSONSerializer.Serialize
+  isSpec: "True"
+  fullName: SerialBox.Default.JSONSerializer.Serialize
+  nameWithType: JSONSerializer.Serialize
+- uid: SerialBox.Default.XMLSerializer
+  name: XMLSerializer
+  href: api/SerialBox.Default.XMLSerializer.html
+  commentId: T:SerialBox.Default.XMLSerializer
+  fullName: SerialBox.Default.XMLSerializer
+  nameWithType: XMLSerializer
+- uid: SerialBox.Default.XMLSerializer.#ctor
+  name: XMLSerializer()
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer__ctor
+  commentId: M:SerialBox.Default.XMLSerializer.#ctor
+  name.vb: New()
+  fullName: SerialBox.Default.XMLSerializer.XMLSerializer()
+  fullName.vb: SerialBox.Default.XMLSerializer.New()
+  nameWithType: XMLSerializer.XMLSerializer()
+  nameWithType.vb: XMLSerializer.New()
+- uid: SerialBox.Default.XMLSerializer.#ctor*
+  name: XMLSerializer
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer__ctor_
+  commentId: Overload:SerialBox.Default.XMLSerializer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SerialBox.Default.XMLSerializer.XMLSerializer
+  fullName.vb: SerialBox.Default.XMLSerializer.New
+  nameWithType: XMLSerializer.XMLSerializer
+  nameWithType.vb: XMLSerializer.New
+- uid: SerialBox.Default.XMLSerializer.ContentType
+  name: ContentType
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_ContentType
+  commentId: P:SerialBox.Default.XMLSerializer.ContentType
+  fullName: SerialBox.Default.XMLSerializer.ContentType
+  nameWithType: XMLSerializer.ContentType
+- uid: SerialBox.Default.XMLSerializer.ContentType*
+  name: ContentType
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_ContentType_
+  commentId: Overload:SerialBox.Default.XMLSerializer.ContentType
+  isSpec: "True"
+  fullName: SerialBox.Default.XMLSerializer.ContentType
+  nameWithType: XMLSerializer.ContentType
+- uid: SerialBox.Default.XMLSerializer.Deserialize(System.Type,System.String)
+  name: Deserialize(Type, string)
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Deserialize_System_Type_System_String_
+  commentId: M:SerialBox.Default.XMLSerializer.Deserialize(System.Type,System.String)
+  name.vb: Deserialize(Type, String)
+  fullName: SerialBox.Default.XMLSerializer.Deserialize(System.Type, string)
+  fullName.vb: SerialBox.Default.XMLSerializer.Deserialize(System.Type, String)
+  nameWithType: XMLSerializer.Deserialize(Type, string)
+  nameWithType.vb: XMLSerializer.Deserialize(Type, String)
+- uid: SerialBox.Default.XMLSerializer.Deserialize*
+  name: Deserialize
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Deserialize_
+  commentId: Overload:SerialBox.Default.XMLSerializer.Deserialize
+  isSpec: "True"
+  fullName: SerialBox.Default.XMLSerializer.Deserialize
+  nameWithType: XMLSerializer.Deserialize
+- uid: SerialBox.Default.XMLSerializer.FileType
+  name: FileType
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_FileType
+  commentId: P:SerialBox.Default.XMLSerializer.FileType
+  fullName: SerialBox.Default.XMLSerializer.FileType
+  nameWithType: XMLSerializer.FileType
+- uid: SerialBox.Default.XMLSerializer.FileType*
+  name: FileType
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_FileType_
+  commentId: Overload:SerialBox.Default.XMLSerializer.FileType
+  isSpec: "True"
+  fullName: SerialBox.Default.XMLSerializer.FileType
+  nameWithType: XMLSerializer.FileType
+- uid: SerialBox.Default.XMLSerializer.Name
+  name: Name
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Name
+  commentId: P:SerialBox.Default.XMLSerializer.Name
+  fullName: SerialBox.Default.XMLSerializer.Name
+  nameWithType: XMLSerializer.Name
+- uid: SerialBox.Default.XMLSerializer.Name*
+  name: Name
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Name_
+  commentId: Overload:SerialBox.Default.XMLSerializer.Name
+  isSpec: "True"
+  fullName: SerialBox.Default.XMLSerializer.Name
+  nameWithType: XMLSerializer.Name
+- uid: SerialBox.Default.XMLSerializer.Serialize(System.Type,System.Object)
+  name: Serialize(Type, object)
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Serialize_System_Type_System_Object_
+  commentId: M:SerialBox.Default.XMLSerializer.Serialize(System.Type,System.Object)
+  name.vb: Serialize(Type, Object)
+  fullName: SerialBox.Default.XMLSerializer.Serialize(System.Type, object)
+  fullName.vb: SerialBox.Default.XMLSerializer.Serialize(System.Type, Object)
+  nameWithType: XMLSerializer.Serialize(Type, object)
+  nameWithType.vb: XMLSerializer.Serialize(Type, Object)
+- uid: SerialBox.Default.XMLSerializer.Serialize*
+  name: Serialize
+  href: api/SerialBox.Default.XMLSerializer.html#SerialBox_Default_XMLSerializer_Serialize_
+  commentId: Overload:SerialBox.Default.XMLSerializer.Serialize
+  isSpec: "True"
+  fullName: SerialBox.Default.XMLSerializer.Serialize
+  nameWithType: XMLSerializer.Serialize
+- uid: SerialBox.Enums
+  name: SerialBox.Enums
+  href: api/SerialBox.Enums.html
+  commentId: N:SerialBox.Enums
+  fullName: SerialBox.Enums
+  nameWithType: SerialBox.Enums
+- uid: SerialBox.Enums.SerializationType
+  name: SerializationType
+  href: api/SerialBox.Enums.SerializationType.html
+  commentId: T:SerialBox.Enums.SerializationType
+  fullName: SerialBox.Enums.SerializationType
+  nameWithType: SerializationType
+- uid: SerialBox.Enums.SerializationType.#ctor(System.String)
+  name: SerializationType(string)
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType__ctor_System_String_
+  commentId: M:SerialBox.Enums.SerializationType.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SerialBox.Enums.SerializationType.SerializationType(string)
+  fullName.vb: SerialBox.Enums.SerializationType.New(String)
+  nameWithType: SerializationType.SerializationType(string)
+  nameWithType.vb: SerializationType.New(String)
+- uid: SerialBox.Enums.SerializationType.#ctor*
+  name: SerializationType
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType__ctor_
+  commentId: Overload:SerialBox.Enums.SerializationType.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SerialBox.Enums.SerializationType.SerializationType
+  fullName.vb: SerialBox.Enums.SerializationType.New
+  nameWithType: SerializationType.SerializationType
+  nameWithType.vb: SerializationType.New
+- uid: SerialBox.Enums.SerializationType.JSON
+  name: JSON
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_JSON
+  commentId: P:SerialBox.Enums.SerializationType.JSON
+  fullName: SerialBox.Enums.SerializationType.JSON
+  nameWithType: SerializationType.JSON
+- uid: SerialBox.Enums.SerializationType.JSON*
+  name: JSON
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_JSON_
+  commentId: Overload:SerialBox.Enums.SerializationType.JSON
+  isSpec: "True"
+  fullName: SerialBox.Enums.SerializationType.JSON
+  nameWithType: SerializationType.JSON
+- uid: SerialBox.Enums.SerializationType.op_Explicit(System.String)~SerialBox.Enums.SerializationType
+  name: explicit operator SerializationType(string)
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_op_Explicit_System_String__SerialBox_Enums_SerializationType
+  commentId: M:SerialBox.Enums.SerializationType.op_Explicit(System.String)~SerialBox.Enums.SerializationType
+  name.vb: CType(String)
+  fullName: SerialBox.Enums.SerializationType.explicit operator SerialBox.Enums.SerializationType(string)
+  fullName.vb: SerialBox.Enums.SerializationType.CType(String)
+  nameWithType: SerializationType.explicit operator SerializationType(string)
+  nameWithType.vb: SerializationType.CType(String)
+- uid: SerialBox.Enums.SerializationType.op_Explicit*
+  name: explicit operator
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_op_Explicit_
+  commentId: Overload:SerialBox.Enums.SerializationType.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SerialBox.Enums.SerializationType.explicit operator
+  fullName.vb: SerialBox.Enums.SerializationType.CType
+  nameWithType: SerializationType.explicit operator
+  nameWithType.vb: SerializationType.CType
+- uid: SerialBox.Enums.SerializationType.op_Implicit(SerialBox.Enums.SerializationType)~System.String
+  name: implicit operator string(SerializationType)
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_op_Implicit_SerialBox_Enums_SerializationType__System_String
+  commentId: M:SerialBox.Enums.SerializationType.op_Implicit(SerialBox.Enums.SerializationType)~System.String
+  name.vb: CType(SerializationType)
+  fullName: SerialBox.Enums.SerializationType.implicit operator string(SerialBox.Enums.SerializationType)
+  fullName.vb: SerialBox.Enums.SerializationType.CType(SerialBox.Enums.SerializationType)
+  nameWithType: SerializationType.implicit operator string(SerializationType)
+  nameWithType.vb: SerializationType.CType(SerializationType)
+- uid: SerialBox.Enums.SerializationType.op_Implicit*
+  name: implicit operator
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_op_Implicit_
+  commentId: Overload:SerialBox.Enums.SerializationType.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SerialBox.Enums.SerializationType.implicit operator
+  fullName.vb: SerialBox.Enums.SerializationType.CType
+  nameWithType: SerializationType.implicit operator
+  nameWithType.vb: SerializationType.CType
+- uid: SerialBox.Enums.SerializationType.ToString
+  name: ToString()
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString
+  commentId: M:SerialBox.Enums.SerializationType.ToString
+  fullName: SerialBox.Enums.SerializationType.ToString()
+  nameWithType: SerializationType.ToString()
+- uid: SerialBox.Enums.SerializationType.ToString*
+  name: ToString
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString_
+  commentId: Overload:SerialBox.Enums.SerializationType.ToString
+  isSpec: "True"
+  fullName: SerialBox.Enums.SerializationType.ToString
+  nameWithType: SerializationType.ToString
+- uid: SerialBox.Enums.SerializationType.XML
+  name: XML
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML
+  commentId: P:SerialBox.Enums.SerializationType.XML
+  fullName: SerialBox.Enums.SerializationType.XML
+  nameWithType: SerializationType.XML
+- uid: SerialBox.Enums.SerializationType.XML*
+  name: XML
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML_
+  commentId: Overload:SerialBox.Enums.SerializationType.XML
+  isSpec: "True"
+  fullName: SerialBox.Enums.SerializationType.XML
+  nameWithType: SerializationType.XML
+- uid: SerialBox.Interfaces
+  name: SerialBox.Interfaces
+  href: api/SerialBox.Interfaces.html
+  commentId: N:SerialBox.Interfaces
+  fullName: SerialBox.Interfaces
+  nameWithType: SerialBox.Interfaces
+- uid: SerialBox.Interfaces.ISerializer
+  name: ISerializer
+  href: api/SerialBox.Interfaces.ISerializer.html
+  commentId: T:SerialBox.Interfaces.ISerializer
+  fullName: SerialBox.Interfaces.ISerializer
+  nameWithType: ISerializer
+- uid: SerialBox.Interfaces.ISerializer.ContentType
+  name: ContentType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_ContentType
+  commentId: P:SerialBox.Interfaces.ISerializer.ContentType
+  fullName: SerialBox.Interfaces.ISerializer.ContentType
+  nameWithType: ISerializer.ContentType
+- uid: SerialBox.Interfaces.ISerializer.ContentType*
+  name: ContentType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_ContentType_
+  commentId: Overload:SerialBox.Interfaces.ISerializer.ContentType
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer.ContentType
+  nameWithType: ISerializer.ContentType
+- uid: SerialBox.Interfaces.ISerializer.FileType
+  name: FileType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_FileType
+  commentId: P:SerialBox.Interfaces.ISerializer.FileType
+  fullName: SerialBox.Interfaces.ISerializer.FileType
+  nameWithType: ISerializer.FileType
+- uid: SerialBox.Interfaces.ISerializer.FileType*
+  name: FileType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_FileType_
+  commentId: Overload:SerialBox.Interfaces.ISerializer.FileType
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer.FileType
+  nameWithType: ISerializer.FileType
+- uid: SerialBox.Interfaces.ISerializer.Name
+  name: Name
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_Name
+  commentId: P:SerialBox.Interfaces.ISerializer.Name
+  fullName: SerialBox.Interfaces.ISerializer.Name
+  nameWithType: ISerializer.Name
+- uid: SerialBox.Interfaces.ISerializer.Name*
+  name: Name
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_Name_
+  commentId: Overload:SerialBox.Interfaces.ISerializer.Name
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer.Name
+  nameWithType: ISerializer.Name
+- uid: SerialBox.Interfaces.ISerializer.ReturnType
+  name: ReturnType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_ReturnType
+  commentId: P:SerialBox.Interfaces.ISerializer.ReturnType
+  fullName: SerialBox.Interfaces.ISerializer.ReturnType
+  nameWithType: ISerializer.ReturnType
+- uid: SerialBox.Interfaces.ISerializer.ReturnType*
+  name: ReturnType
+  href: api/SerialBox.Interfaces.ISerializer.html#SerialBox_Interfaces_ISerializer_ReturnType_
+  commentId: Overload:SerialBox.Interfaces.ISerializer.ReturnType
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer.ReturnType
+  nameWithType: ISerializer.ReturnType
+- uid: SerialBox.Interfaces.ISerializer`1
+  name: ISerializer<T>
+  href: api/SerialBox.Interfaces.ISerializer-1.html
+  commentId: T:SerialBox.Interfaces.ISerializer`1
+  name.vb: ISerializer(Of T)
+  fullName: SerialBox.Interfaces.ISerializer<T>
+  fullName.vb: SerialBox.Interfaces.ISerializer(Of T)
+  nameWithType: ISerializer<T>
+  nameWithType.vb: ISerializer(Of T)
+- uid: SerialBox.Interfaces.ISerializer`1.Deserialize(System.Type,`0)
+  name: Deserialize(Type, T)
+  href: api/SerialBox.Interfaces.ISerializer-1.html#SerialBox_Interfaces_ISerializer_1_Deserialize_System_Type__0_
+  commentId: M:SerialBox.Interfaces.ISerializer`1.Deserialize(System.Type,`0)
+  fullName: SerialBox.Interfaces.ISerializer<T>.Deserialize(System.Type, T)
+  fullName.vb: SerialBox.Interfaces.ISerializer(Of T).Deserialize(System.Type, T)
+  nameWithType: ISerializer<T>.Deserialize(Type, T)
+  nameWithType.vb: ISerializer(Of T).Deserialize(Type, T)
+- uid: SerialBox.Interfaces.ISerializer`1.Deserialize*
+  name: Deserialize
+  href: api/SerialBox.Interfaces.ISerializer-1.html#SerialBox_Interfaces_ISerializer_1_Deserialize_
+  commentId: Overload:SerialBox.Interfaces.ISerializer`1.Deserialize
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer<T>.Deserialize
+  fullName.vb: SerialBox.Interfaces.ISerializer(Of T).Deserialize
+  nameWithType: ISerializer<T>.Deserialize
+  nameWithType.vb: ISerializer(Of T).Deserialize
+- uid: SerialBox.Interfaces.ISerializer`1.Serialize(System.Type,System.Object)
+  name: Serialize(Type, object)
+  href: api/SerialBox.Interfaces.ISerializer-1.html#SerialBox_Interfaces_ISerializer_1_Serialize_System_Type_System_Object_
+  commentId: M:SerialBox.Interfaces.ISerializer`1.Serialize(System.Type,System.Object)
+  name.vb: Serialize(Type, Object)
+  fullName: SerialBox.Interfaces.ISerializer<T>.Serialize(System.Type, object)
+  fullName.vb: SerialBox.Interfaces.ISerializer(Of T).Serialize(System.Type, Object)
+  nameWithType: ISerializer<T>.Serialize(Type, object)
+  nameWithType.vb: ISerializer(Of T).Serialize(Type, Object)
+- uid: SerialBox.Interfaces.ISerializer`1.Serialize*
+  name: Serialize
+  href: api/SerialBox.Interfaces.ISerializer-1.html#SerialBox_Interfaces_ISerializer_1_Serialize_
+  commentId: Overload:SerialBox.Interfaces.ISerializer`1.Serialize
+  isSpec: "True"
+  fullName: SerialBox.Interfaces.ISerializer<T>.Serialize
+  fullName.vb: SerialBox.Interfaces.ISerializer(Of T).Serialize
+  nameWithType: ISerializer<T>.Serialize
+  nameWithType.vb: ISerializer(Of T).Serialize
+- uid: SerialBox.Module
+  name: SerialBox.Module
+  href: api/SerialBox.Module.html
+  commentId: N:SerialBox.Module
+  fullName: SerialBox.Module
+  nameWithType: SerialBox.Module
+- uid: SerialBox.Module.SerialBoxModule
+  name: SerialBoxModule
+  href: api/SerialBox.Module.SerialBoxModule.html
+  commentId: T:SerialBox.Module.SerialBoxModule
+  fullName: SerialBox.Module.SerialBoxModule
+  nameWithType: SerialBoxModule
+- uid: SerialBox.Module.SerialBoxModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: Load(IServiceCollection)
+  href: api/SerialBox.Module.SerialBoxModule.html#SerialBox_Module_SerialBoxModule_Load_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:SerialBox.Module.SerialBoxModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: SerialBox.Module.SerialBoxModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: SerialBoxModule.Load(IServiceCollection)
+- uid: SerialBox.Module.SerialBoxModule.Load*
+  name: Load
+  href: api/SerialBox.Module.SerialBoxModule.html#SerialBox_Module_SerialBoxModule_Load_
+  commentId: Overload:SerialBox.Module.SerialBoxModule.Load
+  isSpec: "True"
+  fullName: SerialBox.Module.SerialBoxModule.Load
+  nameWithType: SerialBoxModule.Load
+- uid: SerialBox.Module.SerialBoxModule.Order
+  name: Order
+  href: api/SerialBox.Module.SerialBoxModule.html#SerialBox_Module_SerialBoxModule_Order
+  commentId: P:SerialBox.Module.SerialBoxModule.Order
+  fullName: SerialBox.Module.SerialBoxModule.Order
+  nameWithType: SerialBoxModule.Order
+- uid: SerialBox.Module.SerialBoxModule.Order*
+  name: Order
+  href: api/SerialBox.Module.SerialBoxModule.html#SerialBox_Module_SerialBoxModule_Order_
+  commentId: Overload:SerialBox.Module.SerialBoxModule.Order
+  isSpec: "True"
+  fullName: SerialBox.Module.SerialBoxModule.Order
+  nameWithType: SerialBoxModule.Order
+- uid: SerialBox.SerialBox
+  name: SerialBox
+  href: api/SerialBox.SerialBox.html
+  commentId: T:SerialBox.SerialBox
+  fullName: SerialBox.SerialBox
+  nameWithType: SerialBox
+- uid: SerialBox.SerialBox.#ctor(System.Collections.Generic.IEnumerable{SerialBox.Interfaces.ISerializer})
+  name: SerialBox(IEnumerable<ISerializer>)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox__ctor_System_Collections_Generic_IEnumerable_SerialBox_Interfaces_ISerializer__
+  commentId: M:SerialBox.SerialBox.#ctor(System.Collections.Generic.IEnumerable{SerialBox.Interfaces.ISerializer})
+  name.vb: New(IEnumerable(Of ISerializer))
+  fullName: SerialBox.SerialBox.SerialBox(System.Collections.Generic.IEnumerable<SerialBox.Interfaces.ISerializer>)
+  fullName.vb: SerialBox.SerialBox.New(System.Collections.Generic.IEnumerable(Of SerialBox.Interfaces.ISerializer))
+  nameWithType: SerialBox.SerialBox(IEnumerable<ISerializer>)
+  nameWithType.vb: SerialBox.New(IEnumerable(Of ISerializer))
+- uid: SerialBox.SerialBox.#ctor*
+  name: SerialBox
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox__ctor_
+  commentId: Overload:SerialBox.SerialBox.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SerialBox.SerialBox.SerialBox
+  fullName.vb: SerialBox.SerialBox.New
+  nameWithType: SerialBox.SerialBox
+  nameWithType.vb: SerialBox.New
+- uid: SerialBox.SerialBox.CanSerialize(System.String)
+  name: CanSerialize(string)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_CanSerialize_System_String_
+  commentId: M:SerialBox.SerialBox.CanSerialize(System.String)
+  name.vb: CanSerialize(String)
+  fullName: SerialBox.SerialBox.CanSerialize(string)
+  fullName.vb: SerialBox.SerialBox.CanSerialize(String)
+  nameWithType: SerialBox.CanSerialize(string)
+  nameWithType.vb: SerialBox.CanSerialize(String)
+- uid: SerialBox.SerialBox.CanSerialize*
+  name: CanSerialize
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_CanSerialize_
+  commentId: Overload:SerialBox.SerialBox.CanSerialize
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.CanSerialize
+  nameWithType: SerialBox.CanSerialize
+- uid: SerialBox.SerialBox.Deserialize*
+  name: Deserialize
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Deserialize_
+  commentId: Overload:SerialBox.SerialBox.Deserialize
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.Deserialize
+  nameWithType: SerialBox.Deserialize
+- uid: SerialBox.SerialBox.Deserialize``1(``0,System.Type,SerialBox.Enums.SerializationType)
+  name: Deserialize<T>(T, Type, SerializationType?)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Deserialize__1___0_System_Type_SerialBox_Enums_SerializationType_
+  commentId: M:SerialBox.SerialBox.Deserialize``1(``0,System.Type,SerialBox.Enums.SerializationType)
+  name.vb: Deserialize(Of T)(T, Type, SerializationType)
+  fullName: SerialBox.SerialBox.Deserialize<T>(T, System.Type, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Deserialize(Of T)(T, System.Type, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Deserialize<T>(T, Type, SerializationType?)
+  nameWithType.vb: SerialBox.Deserialize(Of T)(T, Type, SerializationType)
+- uid: SerialBox.SerialBox.Deserialize``2(``0,SerialBox.Enums.SerializationType)
+  name: Deserialize<T, R>(T, SerializationType?)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Deserialize__2___0_SerialBox_Enums_SerializationType_
+  commentId: M:SerialBox.SerialBox.Deserialize``2(``0,SerialBox.Enums.SerializationType)
+  name.vb: Deserialize(Of T, R)(T, SerializationType)
+  fullName: SerialBox.SerialBox.Deserialize<T, R>(T, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Deserialize(Of T, R)(T, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Deserialize<T, R>(T, SerializationType?)
+  nameWithType.vb: SerialBox.Deserialize(Of T, R)(T, SerializationType)
+- uid: SerialBox.SerialBox.FileTypeToContentType(System.String)
+  name: FileTypeToContentType(string)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_FileTypeToContentType_System_String_
+  commentId: M:SerialBox.SerialBox.FileTypeToContentType(System.String)
+  name.vb: FileTypeToContentType(String)
+  fullName: SerialBox.SerialBox.FileTypeToContentType(string)
+  fullName.vb: SerialBox.SerialBox.FileTypeToContentType(String)
+  nameWithType: SerialBox.FileTypeToContentType(string)
+  nameWithType.vb: SerialBox.FileTypeToContentType(String)
+- uid: SerialBox.SerialBox.FileTypeToContentType*
+  name: FileTypeToContentType
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_FileTypeToContentType_
+  commentId: Overload:SerialBox.SerialBox.FileTypeToContentType
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.FileTypeToContentType
+  nameWithType: SerialBox.FileTypeToContentType
+- uid: SerialBox.SerialBox.Serialize*
+  name: Serialize
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serialize_
+  commentId: Overload:SerialBox.SerialBox.Serialize
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.Serialize
+  nameWithType: SerialBox.Serialize
+- uid: SerialBox.SerialBox.Serialize``1(System.Object,System.Type,SerialBox.Enums.SerializationType)
+  name: Serialize<T>(object, Type?, SerializationType?)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serialize__1_System_Object_System_Type_SerialBox_Enums_SerializationType_
+  commentId: M:SerialBox.SerialBox.Serialize``1(System.Object,System.Type,SerialBox.Enums.SerializationType)
+  name.vb: Serialize(Of T)(Object, Type, SerializationType)
+  fullName: SerialBox.SerialBox.Serialize<T>(object, System.Type?, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Serialize(Of T)(Object, System.Type, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Serialize<T>(object, Type?, SerializationType?)
+  nameWithType.vb: SerialBox.Serialize(Of T)(Object, Type, SerializationType)
+- uid: SerialBox.SerialBox.Serialize``2(``0,SerialBox.Enums.SerializationType)
+  name: Serialize<T, R>(T, SerializationType?)
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serialize__2___0_SerialBox_Enums_SerializationType_
+  commentId: M:SerialBox.SerialBox.Serialize``2(``0,SerialBox.Enums.SerializationType)
+  name.vb: Serialize(Of T, R)(T, SerializationType)
+  fullName: SerialBox.SerialBox.Serialize<T, R>(T, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Serialize(Of T, R)(T, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Serialize<T, R>(T, SerializationType?)
+  nameWithType.vb: SerialBox.Serialize(Of T, R)(T, SerializationType)
+- uid: SerialBox.SerialBox.Serializers
+  name: Serializers
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serializers
+  commentId: P:SerialBox.SerialBox.Serializers
+  fullName: SerialBox.SerialBox.Serializers
+  nameWithType: SerialBox.Serializers
+- uid: SerialBox.SerialBox.Serializers*
+  name: Serializers
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serializers_
+  commentId: Overload:SerialBox.SerialBox.Serializers
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.Serializers
+  nameWithType: SerialBox.Serializers
+- uid: SerialBox.SerialBox.ToString
+  name: ToString()
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_ToString
+  commentId: M:SerialBox.SerialBox.ToString
+  fullName: SerialBox.SerialBox.ToString()
+  nameWithType: SerialBox.ToString()
+- uid: SerialBox.SerialBox.ToString*
+  name: ToString
+  href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_ToString_
+  commentId: Overload:SerialBox.SerialBox.ToString
+  isSpec: "True"
+  fullName: SerialBox.SerialBox.ToString
+  nameWithType: SerialBox.ToString

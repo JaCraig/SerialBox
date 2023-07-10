@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class XMLSerializer
+ | SerialBox API Reference </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class XMLSerializer
+ | SerialBox API Reference ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/icon.png" alt="SerialBox" class="logomark">
+              <span class="brand-title">SerialBox</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/icon.png" alt="SerialBox" class="logomark">
+                          <span class="brand-title">SerialBox</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <strong><a href='https://github.com/JaCraig/SerialBox'>Open in Github</a></strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="SerialBox.Default.XMLSerializer">
+
+
+
+  <h1 id="SerialBox_Default_XMLSerializer" data-uid="SerialBox.Default.XMLSerializer" class="text-break">Class XMLSerializer
+</h1>
+  <div class="markdown level0 summary"><p>XML serializer</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="SerialBox.BaseClasses.SerializerBase-1.html">SerializerBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+    <div class="level2"><span class="xref">XMLSerializer</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SerialBox.Interfaces.ISerializer-1.html">ISerializer</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+    <div><a class="xref" href="SerialBox.Interfaces.ISerializer.html">ISerializer</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SerialBox.BaseClasses.SerializerBase-1.html#SerialBox_BaseClasses_SerializerBase_1_ReturnType">SerializerBase&lt;string&gt;.ReturnType</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SerialBox.html">SerialBox</a>.<a class="xref" href="SerialBox.Default.html">Default</a></h6>
+  <h6><strong>Assembly</strong>: SerialBox.dll</h6>
+  <h5 id="SerialBox_Default_XMLSerializer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XMLSerializer : SerializerBase&lt;string&gt;, ISerializer&lt;string&gt;, ISerializer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer__ctor.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L33">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer__ctor_" data-uid="SerialBox.Default.XMLSerializer.#ctor*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer__ctor" data-uid="SerialBox.Default.XMLSerializer.#ctor">XMLSerializer()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SerialBox.Default.XMLSerializer.html">XMLSerializer</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMLSerializer()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer_ContentType.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.ContentType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L40">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer_ContentType_" data-uid="SerialBox.Default.XMLSerializer.ContentType*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer_ContentType" data-uid="SerialBox.Default.XMLSerializer.ContentType">ContentType</h4>
+  <div class="markdown level1 summary"><p>Content type (MIME type)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ContentType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SerialBox.BaseClasses.SerializerBase{System.String}.html#SerialBox.BaseClasses.SerializerBase{System.String}.ContentType">SerializerBase&lt;string&gt;.ContentType</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer_FileType.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.FileType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L45">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer_FileType_" data-uid="SerialBox.Default.XMLSerializer.FileType*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer_FileType" data-uid="SerialBox.Default.XMLSerializer.FileType">FileType</h4>
+  <div class="markdown level1 summary"><p>File type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string FileType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SerialBox.BaseClasses.SerializerBase{System.String}.html#SerialBox.BaseClasses.SerializerBase{System.String}.FileType">SerializerBase&lt;string&gt;.FileType</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer_Name.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L50">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer_Name_" data-uid="SerialBox.Default.XMLSerializer.Name*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer_Name" data-uid="SerialBox.Default.XMLSerializer.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SerialBox.BaseClasses.SerializerBase{System.String}.html#SerialBox.BaseClasses.SerializerBase{System.String}.Name">SerializerBase&lt;string&gt;.Name</a></div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer_Deserialize_System_Type_System_String_.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.Deserialize(System.Type%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L58">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer_Deserialize_" data-uid="SerialBox.Default.XMLSerializer.Deserialize*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer_Deserialize_System_Type_System_String_" data-uid="SerialBox.Default.XMLSerializer.Deserialize(System.Type,System.String)">Deserialize(Type, string)</h4>
+  <div class="markdown level1 summary"><p>Deserializes the data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object? Deserialize(Type objectType, string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">objectType</span></td>
+        <td><p>Object type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Data to deserialize</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><p>The deserialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SerialBox.BaseClasses.SerializerBase{System.String}.html#SerialBox.BaseClasses.SerializerBase{System.String}.Deserialize(System.Type,System.String)">SerializerBase&lt;string&gt;.Deserialize(Type, string)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/SerialBox/new/master/apiSpec/new?filename=SerialBox_Default_XMLSerializer_Serialize_System_Type_System_Object_.md&amp;value=---%0Auid%3A%20SerialBox.Default.XMLSerializer.Serialize(System.Type%2CSystem.Object)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/Default/XMLSerializer.cs/#L73">View Source</a>
+  </span>
+  <a id="SerialBox_Default_XMLSerializer_Serialize_" data-uid="SerialBox.Default.XMLSerializer.Serialize*"></a>
+  <h4 id="SerialBox_Default_XMLSerializer_Serialize_System_Type_System_Object_" data-uid="SerialBox.Default.XMLSerializer.Serialize(System.Type,System.Object)">Serialize(Type, object)</h4>
+  <div class="markdown level1 summary"><p>Serializes the object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Serialize(Type objectType, object data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">objectType</span></td>
+        <td><p>Object type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Data to serialize</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The serialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SerialBox.BaseClasses.SerializerBase{System.String}.html#SerialBox.BaseClasses.SerializerBase{System.String}.Serialize(System.Type,System.Object)">SerializerBase&lt;string&gt;.Serialize(Type, object)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SerialBox.Interfaces.ISerializer-1.html">ISerializer&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="SerialBox.Interfaces.ISerializer.html">ISerializer</a>
+  </div>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; James Craig. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>
