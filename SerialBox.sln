@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE5EF6FA-9A59-4795-8F9C-C2D92CCE5F5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8610CC43-580C-431C-886C-C2A6DD01503D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{85386FC0-3740-4CB1-9010-2F604A75385D}"
 EndProject
@@ -13,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox", "src\SerialBox\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox.Tests", "test\SerialBox.Tests\SerialBox.Tests.csproj", "{115548E3-2673-474C-8275-1DF1DA366C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialBox.Example", "SerialBox.Example\SerialBox.Example.csproj", "{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox.Example", "SerialBox.Example\SerialBox.Example.csproj", "{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
