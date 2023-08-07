@@ -376,6 +376,32 @@ references:
   isSpec: "True"
   fullName: SerialBox.Enums.SerializationType.JSON
   nameWithType: SerializationType.JSON
+- uid: SerialBox.Enums.SerializationType.ToString
+  name: ToString()
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString
+  commentId: M:SerialBox.Enums.SerializationType.ToString
+  fullName: SerialBox.Enums.SerializationType.ToString()
+  nameWithType: SerializationType.ToString()
+- uid: SerialBox.Enums.SerializationType.ToString*
+  name: ToString
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString_
+  commentId: Overload:SerialBox.Enums.SerializationType.ToString
+  isSpec: "True"
+  fullName: SerialBox.Enums.SerializationType.ToString
+  nameWithType: SerializationType.ToString
+- uid: SerialBox.Enums.SerializationType.XML
+  name: XML
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML
+  commentId: P:SerialBox.Enums.SerializationType.XML
+  fullName: SerialBox.Enums.SerializationType.XML
+  nameWithType: SerializationType.XML
+- uid: SerialBox.Enums.SerializationType.XML*
+  name: XML
+  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML_
+  commentId: Overload:SerialBox.Enums.SerializationType.XML
+  isSpec: "True"
+  fullName: SerialBox.Enums.SerializationType.XML
+  nameWithType: SerializationType.XML
 - uid: SerialBox.Enums.SerializationType.op_Explicit(System.String)~SerialBox.Enums.SerializationType
   name: explicit operator SerializationType(string)
   href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_op_Explicit_System_String__SerialBox_Enums_SerializationType
@@ -414,32 +440,6 @@ references:
   fullName.vb: SerialBox.Enums.SerializationType.CType
   nameWithType: SerializationType.implicit operator
   nameWithType.vb: SerializationType.CType
-- uid: SerialBox.Enums.SerializationType.ToString
-  name: ToString()
-  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString
-  commentId: M:SerialBox.Enums.SerializationType.ToString
-  fullName: SerialBox.Enums.SerializationType.ToString()
-  nameWithType: SerializationType.ToString()
-- uid: SerialBox.Enums.SerializationType.ToString*
-  name: ToString
-  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_ToString_
-  commentId: Overload:SerialBox.Enums.SerializationType.ToString
-  isSpec: "True"
-  fullName: SerialBox.Enums.SerializationType.ToString
-  nameWithType: SerializationType.ToString
-- uid: SerialBox.Enums.SerializationType.XML
-  name: XML
-  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML
-  commentId: P:SerialBox.Enums.SerializationType.XML
-  fullName: SerialBox.Enums.SerializationType.XML
-  nameWithType: SerializationType.XML
-- uid: SerialBox.Enums.SerializationType.XML*
-  name: XML
-  href: api/SerialBox.Enums.SerializationType.html#SerialBox_Enums_SerializationType_XML_
-  commentId: Overload:SerialBox.Enums.SerializationType.XML
-  isSpec: "True"
-  fullName: SerialBox.Enums.SerializationType.XML
-  nameWithType: SerializationType.XML
 - uid: SerialBox.Interfaces
   name: SerialBox.Interfaces
   href: api/SerialBox.Interfaces.html
