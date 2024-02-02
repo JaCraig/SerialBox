@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.21"></a>
+## [4.0.21](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.21) (2024-02-02)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([ddfa7c3](https://www.github.com/JaCraig/SerialBox/commit/ddfa7c3acf0cea8656afa2023257bd63a42eefee))
+
+### Other
+
+* Merge pull request #46 from JaCraig/dependabot/nuget/dependencies-6be31571d5 ([c641652](https://www.github.com/JaCraig/SerialBox/commit/c641652f3eff6fe7afde641e869246b18717dfa4))
+* Update dependabot-reviewer.yml ([658a294](https://www.github.com/JaCraig/SerialBox/commit/658a294ba6c6b962b87514cdb9b9eddda572e62c))
+
 <a name="4.0.20"></a>
 ## [4.0.20](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.20) (2024-01-29)
 
