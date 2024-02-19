@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.22"></a>
+## [4.0.22](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.22) (2024-02-19)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([b5299b8](https://www.github.com/JaCraig/SerialBox/commit/b5299b8f6e64bb88702133bd4f74f857d2223b45))
+
+### Other
+
+* Merge pull request #47 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-dd5dd83d2f ([f49bade](https://www.github.com/JaCraig/SerialBox/commit/f49badeccf34ae09281bd3a36a391cb55028516f))
+* Merge pull request #48 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-5305f2162c ([dfb2c34](https://www.github.com/JaCraig/SerialBox/commit/dfb2c341922e3035d22f5b7b0ab105eb097bee23))
+* Merge pull request #49 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-0792913db0 ([0fc1351](https://www.github.com/JaCraig/SerialBox/commit/0fc1351049d49440bf9501082ee567836861ea72))
+* Merge pull request #50 from JaCraig/dependabot/nuget/dependencies-1885c9e26b ([c318a6a](https://www.github.com/JaCraig/SerialBox/commit/c318a6ab79e785f16ee7efb15e8a0fd193706e03))
+* bump the dependencies group ([acb8582](https://www.github.com/JaCraig/SerialBox/commit/acb8582440072acbcb7a1274042d71348126e62c))
+* bump the dependencies group ([c825a02](https://www.github.com/JaCraig/SerialBox/commit/c825a02cc545cae9f9c9de6620670d7170682856))
+* bump the dependencies group ([224259b](https://www.github.com/JaCraig/SerialBox/commit/224259b2ab3c3a9ca72783a65b84c13f86809b70))
+
 <a name="4.0.21"></a>
 ## [4.0.21](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.21) (2024-02-02)
 
