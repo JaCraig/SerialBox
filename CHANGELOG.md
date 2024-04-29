@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.30"></a>
+## [4.0.30](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.30) (2024-04-29)
+
+### Bug Fixes
+
+* bump versionize from 1.22.0 to 1.23.0 in the dependencies group ([3100c13](https://www.github.com/JaCraig/SerialBox/commit/3100c1371abf823d39003c5b1ba3f65d7f232c52))
+
+### Other
+
+* Merge pull request #59 from JaCraig/dependabot/github_actions/dependencies-45223d3826 ([b7a03b6](https://www.github.com/JaCraig/SerialBox/commit/b7a03b67322a70197edcfec8a6a91ac5e6a6e886))
+* Merge pull request #60 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-fc8f0a2f2d ([58cf160](https://www.github.com/JaCraig/SerialBox/commit/58cf160aae22488f682196c2a268129d57950797))
+* Merge pull request #61 from JaCraig/dependabot/github_actions/dependencies-67cf71b959 ([fc762c2](https://www.github.com/JaCraig/SerialBox/commit/fc762c211dd84226db07c6108a74047f91050c14))
+* Merge pull request #62 from JaCraig/dependabot/nuget/dependencies-6d2d24f1fd ([7a2b6be](https://www.github.com/JaCraig/SerialBox/commit/7a2b6be20bf4b09fe9fae040c2bb607aa86c8416))
+* bump dependabot/fetch-metadata in the dependencies group ([1635e0b](https://www.github.com/JaCraig/SerialBox/commit/1635e0bd81cc55a37411375b196dc694ca95e2a2))
+* bump peaceiris/actions-gh-pages in the dependencies group ([bc02b8b](https://www.github.com/JaCraig/SerialBox/commit/bc02b8b990215dd4c9f9ac9d6dfeca0997a6c70f))
+* bump the dependencies group ([aa5d2ee](https://www.github.com/JaCraig/SerialBox/commit/aa5d2ee4d039d7de1d61a354ed93b953eaebb7ac))
+
 <a name="4.0.29"></a>
 ## [4.0.29](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.29) (2024-03-28)
 
