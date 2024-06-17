@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.34"></a>
+## [4.0.34](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.34) (2024-06-17)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([323a300](https://www.github.com/JaCraig/SerialBox/commit/323a3008521e3daf7e9bf73bbc7723375113cc1c))
+
+### Other
+
+* Merge pull request #67 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-d10d8338a5 ([55358ce](https://www.github.com/JaCraig/SerialBox/commit/55358ce953e7d36e0833f10022f29246bebfabd4))
+* Merge pull request #68 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-63bf006411 ([6e944ec](https://www.github.com/JaCraig/SerialBox/commit/6e944ec89a83f3908f33b496d433b97a85b01f46))
+* Merge pull request #69 from JaCraig/dependabot/nuget/dependencies-14dd620748 ([897d7ce](https://www.github.com/JaCraig/SerialBox/commit/897d7ce2a4f50541acddfebaf71a8c42226f2a2f))
+* bump Microsoft.NET.Test.Sdk ([1f1fe8b](https://www.github.com/JaCraig/SerialBox/commit/1f1fe8bde14d0d365a9477ba4b168af7894e082c))
+* bump the dependencies group ([18c5096](https://www.github.com/JaCraig/SerialBox/commit/18c50965a78be692f6e75b79d7f15146b1923929))
+
 <a name="4.0.33"></a>
 ## [4.0.33](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.33) (2024-05-06)
 
