@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.36"></a>
+## [4.0.36](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.36) (2024-08-01)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.11 to 5.3.12 in the dependencies group ([2ecadd8](https://www.github.com/JaCraig/SerialBox/commit/2ecadd83d3b7ed1a02a42482463a8a079ae860df))
+
+### Other
+
+* Merge pull request #71 from JaCraig/dependabot/github_actions/dependencies-c44bf69c3e ([17f485c](https://www.github.com/JaCraig/SerialBox/commit/17f485c5bf9d018634a25fc1aefd74e3dfeab7f8))
+* Merge pull request #72 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-8e312df114 ([fea17a3](https://www.github.com/JaCraig/SerialBox/commit/fea17a3ac6b27cda7c57aa3a89ee68deacf3c7ca))
+* Merge pull request #73 from JaCraig/dependabot/github_actions/dependencies-be62d4486d ([0327230](https://www.github.com/JaCraig/SerialBox/commit/0327230eae82666ca0a8eeffac578ba91be771c7))
+* Merge pull request #74 from JaCraig/dependabot/nuget/dependencies-63ca897048 ([8d5bf6e](https://www.github.com/JaCraig/SerialBox/commit/8d5bf6e7a11b992d79ea5d166d94ca2640f1f16b))
+* bump actions/setup-dotnet in the dependencies group ([51792cc](https://www.github.com/JaCraig/SerialBox/commit/51792cc0699e873a5a74a0f3a032f36aa1920b88))
+* bump dependabot/fetch-metadata in the dependencies group ([481a540](https://www.github.com/JaCraig/SerialBox/commit/481a540ab529b6d7cd4e3016f1abf2849074a3f4))
+* bump the dependencies group ([1308491](https://www.github.com/JaCraig/SerialBox/commit/1308491e51a16da85d84ba2f3363fc80427833f9))
+
 <a name="4.0.35"></a>
 ## [4.0.35](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.35) (2024-06-25)
 
