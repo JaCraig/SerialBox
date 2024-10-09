@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.38"></a>
+## [4.0.38](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.38) (2024-10-09)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.13 to 5.3.14 in the dependencies group ([4e9759f](https://www.github.com/JaCraig/SerialBox/commit/4e9759fdf17d6ae512cd884c638b5c7ebd5eaa00))
+
+### Other
+
+* Merge pull request #77 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-78c52a00e0 ([0314cf9](https://www.github.com/JaCraig/SerialBox/commit/0314cf961d789151eccda0602338c5b398d3aeb9))
+* Merge pull request #78 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-e833257e60 ([6c418ed](https://www.github.com/JaCraig/SerialBox/commit/6c418ed6402226ccd6a6b2ffc67daa8097db39c5))
+* Merge pull request #79 from JaCraig/dependabot/nuget/test/SerialBox.Tests/dependencies-799ab3113c ([ced9d05](https://www.github.com/JaCraig/SerialBox/commit/ced9d050c687a09ce503190b24badfa9159628a3))
+* Merge pull request #80 from JaCraig/dependabot/nuget/dependencies-94a86f1d9e ([51bcf41](https://www.github.com/JaCraig/SerialBox/commit/51bcf41b7a52f4b4287396fe391630e57f199ad8))
+* bump Microsoft.NET.Test.Sdk ([6f9a3a6](https://www.github.com/JaCraig/SerialBox/commit/6f9a3a651d8a8620ab7cc7844c6ba447242c197c))
+* bump xunit in /test/SerialBox.Tests in the dependencies group ([3e55209](https://www.github.com/JaCraig/SerialBox/commit/3e5520944690387ed2b269a477589c1259db3b97))
+* bump xunit in /test/SerialBox.Tests in the dependencies group ([14b6a3e](https://www.github.com/JaCraig/SerialBox/commit/14b6a3ed2b5f6d0323405b3d44eac0cab85e918f))
+
 <a name="4.0.37"></a>
 ## [4.0.37](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.37) (2024-08-22)
 
