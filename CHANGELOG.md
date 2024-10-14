@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.39"></a>
+## [4.0.39](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.39) (2024-10-14)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.14 to 5.3.15 in the dependencies group ([1dd7ce6](https://www.github.com/JaCraig/SerialBox/commit/1dd7ce6d3d75733ae438643328f9114fa526a63f))
+
+### Other
+
+* Merge pull request #81 from JaCraig/dependabot/nuget/dependencies-cadb4fe95d ([8968409](https://www.github.com/JaCraig/SerialBox/commit/89684090b641327cd0338cda32230b21147ba342))
+
 <a name="4.0.38"></a>
 ## [4.0.38](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.38) (2024-10-09)
 
