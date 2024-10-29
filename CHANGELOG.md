@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.40"></a>
+## [4.0.40](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.40) (2024-10-29)
+
+### Bug Fixes
+
+* bump versionize from 1.27.0 to 2.0.0 in the dependencies group ([64f546c](https://www.github.com/JaCraig/SerialBox/commit/64f546ce1caab5724e564718ee418e000c247a6c))
+* bump versionize from 2.0.0 to 2.1.0 in the dependencies group ([a359e0e](https://www.github.com/JaCraig/SerialBox/commit/a359e0ed24375b1ca97ea9e7491cbefbcd120657))
+
+### Other
+
+* Merge pull request #82 from JaCraig/dependabot/nuget/dependencies-9c36df7c76 ([faed207](https://www.github.com/JaCraig/SerialBox/commit/faed20798085efa27b43ad893d4a0f69748526c0))
+* Merge pull request #83 from JaCraig/dependabot/nuget/dependencies-3894128c1d ([3f2f74d](https://www.github.com/JaCraig/SerialBox/commit/3f2f74d22a51e73d9fad4e8ebd62c39862e5e59a))
+* Merge pull request #84 from JaCraig/dependabot/github_actions/dependencies-18190d55f2 ([521e96f](https://www.github.com/JaCraig/SerialBox/commit/521e96fbdc25ad04a7f1a64fba51a9e164c6d06b))
+* bump actions/setup-dotnet in the dependencies group ([0168681](https://www.github.com/JaCraig/SerialBox/commit/01686819e981c17918b6aaedfab393aced7337b3))
+* Refactor versionize command in dotnet-publish workflow ([edaedbe](https://www.github.com/JaCraig/SerialBox/commit/edaedbe6828483c35b113f595f1bad6f9848fead))
+
 <a name="4.0.39"></a>
 ## [4.0.39](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.39) (2024-10-14)
 
