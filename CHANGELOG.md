@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.43"></a>
+## [4.0.43](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.43) (2024-11-11)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([b9624de](https://www.github.com/JaCraig/SerialBox/commit/b9624de4932afefeec61d5f64d8f740fe5ae1df2))
+
+### Other
+
+* Merge pull request #87 from JaCraig/dependabot/nuget/dependencies-49fcd014de ([5f66e2a](https://www.github.com/JaCraig/SerialBox/commit/5f66e2a97d226f5a25ea9436df9e288080b20fa9))
+
 <a name="4.0.42"></a>
 ## [4.0.42](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.42) (2024-11-04)
 
