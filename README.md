@@ -6,11 +6,21 @@ SerialBox is a library designed to simplify serialization in .Net. By default it
 
 ## Basic Usage
 
-uses a library called Canister for registering itself in your ServiceCollection:
+The library can be initialized by registering it with your IoC container during startup. Example code:
 
-    servicecollection.AddCanisterModules();
+```csharp
+ServiceProvider? ServiceProvider = new ServiceCollection().RegisterAspectus()?.BuildServiceProvider();
+```
+
+or
+
+```csharp
+ServiceProvider? ServiceProvider = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
+```
+
+As the library supports [Canister Modules](https://github.com/JaCraig/Canister).
 	
-This line is required prior to using the extension methods for the first time. Once Canister is set up, you can call the extension methods provided:
+This line is required prior to using the extension methods for the first time. Once it is set up, you can call the extension methods provided:
 
     [DataContract]
     public class Temp

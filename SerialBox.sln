@@ -12,11 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{85386FC0-3740-4CB1-9010-2F604A75385D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox", "src\SerialBox\SerialBox.csproj", "{66881363-62DE-471D-BF89-02A659F102FB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox.Tests", "test\SerialBox.Tests\SerialBox.Tests.csproj", "{115548E3-2673-474C-8275-1DF1DA366C22}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialBox.Example", "SerialBox.Example\SerialBox.Example.csproj", "{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialBox", "SerialBox\SerialBox.csproj", "{DAE71B55-2B6E-4B73-A989-782C2B74BB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialBox.Tests", "SerialBox.Tests\SerialBox.Tests.csproj", "{91475CF1-B2E4-470E-97BA-EB54CE30DF14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,24 +24,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{66881363-62DE-471D-BF89-02A659F102FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66881363-62DE-471D-BF89-02A659F102FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66881363-62DE-471D-BF89-02A659F102FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66881363-62DE-471D-BF89-02A659F102FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{115548E3-2673-474C-8275-1DF1DA366C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{115548E3-2673-474C-8275-1DF1DA366C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{115548E3-2673-474C-8275-1DF1DA366C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{115548E3-2673-474C-8275-1DF1DA366C22}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A30398-BD9C-44C7-B4D0-BB73BFDA1C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE71B55-2B6E-4B73-A989-782C2B74BB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE71B55-2B6E-4B73-A989-782C2B74BB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE71B55-2B6E-4B73-A989-782C2B74BB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE71B55-2B6E-4B73-A989-782C2B74BB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91475CF1-B2E4-470E-97BA-EB54CE30DF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91475CF1-B2E4-470E-97BA-EB54CE30DF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91475CF1-B2E4-470E-97BA-EB54CE30DF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91475CF1-B2E4-470E-97BA-EB54CE30DF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{66881363-62DE-471D-BF89-02A659F102FB} = {FE5EF6FA-9A59-4795-8F9C-C2D92CCE5F5B}
-		{115548E3-2673-474C-8275-1DF1DA366C22} = {85386FC0-3740-4CB1-9010-2F604A75385D}
+		{DAE71B55-2B6E-4B73-A989-782C2B74BB1F} = {FE5EF6FA-9A59-4795-8F9C-C2D92CCE5F5B}
+		{91475CF1-B2E4-470E-97BA-EB54CE30DF14} = {85386FC0-3740-4CB1-9010-2F604A75385D}
 	EndGlobalSection
 EndGlobal
