@@ -12,26 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/SerialBox.BaseClasses.SerializerBase-1.yml",
       "output": {
         ".html": {
@@ -146,6 +126,26 @@
       "output": {
         ".html": {
           "relative_path": "api/SerialBox.Module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SerialBox.Registration.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SerialBox.Registration.Registration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SerialBox.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SerialBox.Registration.html"
         }
       },
       "version": ""

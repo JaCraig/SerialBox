@@ -1,34 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Microsoft.Extensions.DependencyInjection
-  name: Microsoft.Extensions.DependencyInjection
-  href: api/Microsoft.Extensions.DependencyInjection.html
-  commentId: N:Microsoft.Extensions.DependencyInjection
-  fullName: Microsoft.Extensions.DependencyInjection
-  nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.Registration
-  name: Registration
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.Registration
-  fullName: Microsoft.Extensions.DependencyInjection.Registration
-  nameWithType: Registration
-- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
-  name: RegisterSerialBox(ICanisterConfiguration?)
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterSerialBox_Canister_Interfaces_ICanisterConfiguration_
-  commentId: M:Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
-  name.vb: RegisterSerialBox(ICanisterConfiguration)
-  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration?)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
-  nameWithType: Registration.RegisterSerialBox(ICanisterConfiguration?)
-  nameWithType.vb: Registration.RegisterSerialBox(ICanisterConfiguration)
-- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox*
-  name: RegisterSerialBox
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterSerialBox_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox
-  isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterSerialBox
-  nameWithType: Registration.RegisterSerialBox
 - uid: SerialBox
   name: SerialBox
   href: api/SerialBox.html
@@ -586,6 +558,43 @@ references:
   isSpec: "True"
   fullName: SerialBox.Module.SerialBoxModule.Order
   nameWithType: SerialBoxModule.Order
+- uid: SerialBox.Registration
+  name: SerialBox.Registration
+  href: api/SerialBox.Registration.html
+  commentId: N:SerialBox.Registration
+  fullName: SerialBox.Registration
+  nameWithType: SerialBox.Registration
+- uid: SerialBox.Registration.Registration
+  name: Registration
+  href: api/SerialBox.Registration.Registration.html
+  commentId: T:SerialBox.Registration.Registration
+  fullName: SerialBox.Registration.Registration
+  nameWithType: Registration
+- uid: SerialBox.Registration.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  name: RegisterSerialBox(ICanisterConfiguration?)
+  href: api/SerialBox.Registration.Registration.html#SerialBox_Registration_Registration_RegisterSerialBox_Canister_Interfaces_ICanisterConfiguration_
+  commentId: M:SerialBox.Registration.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  name.vb: RegisterSerialBox(ICanisterConfiguration)
+  fullName: SerialBox.Registration.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration?)
+  fullName.vb: SerialBox.Registration.Registration.RegisterSerialBox(Canister.Interfaces.ICanisterConfiguration)
+  nameWithType: Registration.RegisterSerialBox(ICanisterConfiguration?)
+  nameWithType.vb: Registration.RegisterSerialBox(ICanisterConfiguration)
+- uid: SerialBox.Registration.Registration.RegisterSerialBox(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterSerialBox(IServiceCollection?)
+  href: api/SerialBox.Registration.Registration.html#SerialBox_Registration_Registration_RegisterSerialBox_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:SerialBox.Registration.Registration.RegisterSerialBox(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: RegisterSerialBox(IServiceCollection)
+  fullName: SerialBox.Registration.Registration.RegisterSerialBox(Microsoft.Extensions.DependencyInjection.IServiceCollection?)
+  fullName.vb: SerialBox.Registration.Registration.RegisterSerialBox(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: Registration.RegisterSerialBox(IServiceCollection?)
+  nameWithType.vb: Registration.RegisterSerialBox(IServiceCollection)
+- uid: SerialBox.Registration.Registration.RegisterSerialBox*
+  name: RegisterSerialBox
+  href: api/SerialBox.Registration.Registration.html#SerialBox_Registration_Registration_RegisterSerialBox_
+  commentId: Overload:SerialBox.Registration.Registration.RegisterSerialBox
+  isSpec: "True"
+  fullName: SerialBox.Registration.Registration.RegisterSerialBox
+  nameWithType: Registration.RegisterSerialBox
 - uid: SerialBox.SerialBox
   name: SerialBox
   href: api/SerialBox.SerialBox.html
@@ -644,14 +653,14 @@ references:
   nameWithType: SerialBox.Deserialize<T>(T, Type, SerializationType?)
   nameWithType.vb: SerialBox.Deserialize(Of T)(T, Type, SerializationType)
 - uid: SerialBox.SerialBox.Deserialize``2(``0,SerialBox.Enums.SerializationType)
-  name: Deserialize<T, R>(T, SerializationType?)
+  name: Deserialize<T, TR>(T, SerializationType?)
   href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Deserialize__2___0_SerialBox_Enums_SerializationType_
   commentId: M:SerialBox.SerialBox.Deserialize``2(``0,SerialBox.Enums.SerializationType)
-  name.vb: Deserialize(Of T, R)(T, SerializationType)
-  fullName: SerialBox.SerialBox.Deserialize<T, R>(T, SerialBox.Enums.SerializationType?)
-  fullName.vb: SerialBox.SerialBox.Deserialize(Of T, R)(T, SerialBox.Enums.SerializationType)
-  nameWithType: SerialBox.Deserialize<T, R>(T, SerializationType?)
-  nameWithType.vb: SerialBox.Deserialize(Of T, R)(T, SerializationType)
+  name.vb: Deserialize(Of T, TR)(T, SerializationType)
+  fullName: SerialBox.SerialBox.Deserialize<T, TR>(T, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Deserialize(Of T, TR)(T, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Deserialize<T, TR>(T, SerializationType?)
+  nameWithType.vb: SerialBox.Deserialize(Of T, TR)(T, SerializationType)
 - uid: SerialBox.SerialBox.FileTypeToContentType(System.String)
   name: FileTypeToContentType(string)
   href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_FileTypeToContentType_System_String_
@@ -685,14 +694,14 @@ references:
   nameWithType: SerialBox.Serialize<T>(object, Type?, SerializationType?)
   nameWithType.vb: SerialBox.Serialize(Of T)(Object, Type, SerializationType)
 - uid: SerialBox.SerialBox.Serialize``2(``0,SerialBox.Enums.SerializationType)
-  name: Serialize<T, R>(T, SerializationType?)
+  name: Serialize<T, TR>(T, SerializationType?)
   href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serialize__2___0_SerialBox_Enums_SerializationType_
   commentId: M:SerialBox.SerialBox.Serialize``2(``0,SerialBox.Enums.SerializationType)
-  name.vb: Serialize(Of T, R)(T, SerializationType)
-  fullName: SerialBox.SerialBox.Serialize<T, R>(T, SerialBox.Enums.SerializationType?)
-  fullName.vb: SerialBox.SerialBox.Serialize(Of T, R)(T, SerialBox.Enums.SerializationType)
-  nameWithType: SerialBox.Serialize<T, R>(T, SerializationType?)
-  nameWithType.vb: SerialBox.Serialize(Of T, R)(T, SerializationType)
+  name.vb: Serialize(Of T, TR)(T, SerializationType)
+  fullName: SerialBox.SerialBox.Serialize<T, TR>(T, SerialBox.Enums.SerializationType?)
+  fullName.vb: SerialBox.SerialBox.Serialize(Of T, TR)(T, SerialBox.Enums.SerializationType)
+  nameWithType: SerialBox.Serialize<T, TR>(T, SerializationType?)
+  nameWithType.vb: SerialBox.Serialize(Of T, TR)(T, SerializationType)
 - uid: SerialBox.SerialBox.Serializers
   name: Serializers
   href: api/SerialBox.SerialBox.html#SerialBox_SerialBox_Serializers

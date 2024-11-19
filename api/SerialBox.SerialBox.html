@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="SerialBox_SerialBox" data-uid="SerialBox.SerialBox" class="text-break">
-Class SerialBox  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L30"><i class="bi bi-code-slash"></i></a>
+Class SerialBox  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,7 +154,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox__ctor_System_Collections_Generic_IEnumerable_SerialBox_Interfaces_ISerializer__" data-uid="SerialBox.SerialBox.#ctor(System.Collections.Generic.IEnumerable{SerialBox.Interfaces.ISerializer})">
   SerialBox(IEnumerable&lt;ISerializer&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructor</p>
@@ -191,7 +191,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_Serializers" data-uid="SerialBox.SerialBox.Serializers">
   Serializers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializers</p>
@@ -227,7 +227,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_CanSerialize_System_String_" data-uid="SerialBox.SerialBox.CanSerialize(System.String)">
   CanSerialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines if the system can serialize/deserialize the content type</p>
@@ -266,7 +266,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_Deserialize__1___0_System_Type_SerialBox_Enums_SerializationType_" data-uid="SerialBox.SerialBox.Deserialize``1(``0,System.Type,SerialBox.Enums.SerializationType)">
   Deserialize&lt;T&gt;(T, Type, SerializationType?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes the data to an object</p>
@@ -316,8 +316,8 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
   <a id="SerialBox_SerialBox_Deserialize_" data-uid="SerialBox.SerialBox.Deserialize*"></a>
 
   <h3 id="SerialBox_SerialBox_Deserialize__2___0_SerialBox_Enums_SerializationType_" data-uid="SerialBox.SerialBox.Deserialize``2(``0,SerialBox.Enums.SerializationType)">
-  Deserialize&lt;T, R&gt;(T, SerializationType?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  Deserialize&lt;T, TR&gt;(T, SerializationType?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deserializes the data to an object</p>
@@ -325,7 +325,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public R Deserialize&lt;T, R&gt;(T data, SerializationType? contentType = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public TR? Deserialize&lt;T, TR&gt;(T data, SerializationType? contentType = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -340,7 +340,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">R</span></dt>
+    <dt><span class="xref">TR</span></dt>
     <dd><p>The deserialized object</p>
 </dd>
   </dl>
@@ -350,7 +350,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
     <dt><code>T</code></dt>
     <dd><p>Data type</p>
 </dd>
-    <dt><code>R</code></dt>
+    <dt><code>TR</code></dt>
     <dd><p>Return object type</p>
 </dd>
   </dl>
@@ -368,7 +368,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_FileTypeToContentType_System_String_" data-uid="SerialBox.SerialBox.FileTypeToContentType(System.String)">
   FileTypeToContentType(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>File type to content type</p>
@@ -407,7 +407,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_Serialize__1_System_Object_System_Type_SerialBox_Enums_SerializationType_" data-uid="SerialBox.SerialBox.Serialize``1(System.Object,System.Type,SerialBox.Enums.SerializationType)">
   Serialize&lt;T&gt;(object, Type?, SerializationType?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes the object based on the content type specified</p>
@@ -415,7 +415,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Serialize&lt;T&gt;(object data, Type? objectType, SerializationType? contentType = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public T? Serialize&lt;T&gt;(object data, Type? objectType, SerializationType? contentType = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -457,8 +457,8 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
   <a id="SerialBox_SerialBox_Serialize_" data-uid="SerialBox.SerialBox.Serialize*"></a>
 
   <h3 id="SerialBox_SerialBox_Serialize__2___0_SerialBox_Enums_SerializationType_" data-uid="SerialBox.SerialBox.Serialize``2(``0,SerialBox.Enums.SerializationType)">
-  Serialize&lt;T, R&gt;(T, SerializationType?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  Serialize&lt;T, TR&gt;(T, SerializationType?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serializes the object based on the content type specified</p>
@@ -466,7 +466,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public R Serialize&lt;T, R&gt;(T data, SerializationType? contentType = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public TR? Serialize&lt;T, TR&gt;(T data, SerializationType? contentType = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -481,7 +481,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">R</span></dt>
+    <dt><span class="xref">TR</span></dt>
     <dd><p>The serialized object as a string</p>
 </dd>
   </dl>
@@ -491,7 +491,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
     <dt><code>T</code></dt>
     <dd><p>Object type</p>
 </dd>
-    <dt><code>R</code></dt>
+    <dt><code>TR</code></dt>
     <dd><p>Return type</p>
 </dd>
   </dl>
@@ -509,7 +509,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="SerialBox_SerialBox_ToString" data-uid="SerialBox.SerialBox.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Outputs information about the serializers the system is using</p>
@@ -542,7 +542,7 @@ Class SerialBox  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/JaCraig/SerialBox/blob/master/src/SerialBox/SerialBox.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/JaCraig/SerialBox/blob/master/SerialBox/SerialBox.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

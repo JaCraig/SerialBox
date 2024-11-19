@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -76,10 +76,14 @@
 <p><a href="https://github.com/JaCraig/SerialBox/actions/workflows/dotnet-publish.yml"><img src="https://github.com/JaCraig/SerialBox/actions/workflows/dotnet-publish.yml/badge.svg" alt=".NET Publish"></a></p>
 <p>SerialBox is a library designed to simplify serialization in .Net. By default it supports XML and JSON but can be expanded upon to support other serialization targets as well.</p>
 <h2 id="basic-usage">Basic Usage</h2>
-<p>uses a library called Canister for registering itself in your ServiceCollection:</p>
-<pre><code>servicecollection.AddCanisterModules();
+<p>The library can be initialized by registering it with your IoC container during startup. Example code:</p>
+<pre><code class="lang-csharp">ServiceProvider? ServiceProvider = new ServiceCollection().RegisterAspectus()?.BuildServiceProvider();
 </code></pre>
-<p>This line is required prior to using the extension methods for the first time. Once Canister is set up, you can call the extension methods provided:</p>
+<p>or</p>
+<pre><code class="lang-csharp">ServiceProvider? ServiceProvider = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
+</code></pre>
+<p>As the library supports <a href="https://github.com/JaCraig/Canister">Canister Modules</a>.</p>
+<p>This line is required prior to using the extension methods for the first time. Once it is set up, you can call the extension methods provided:</p>
 <pre><code>[DataContract]
 public class Temp
 {
