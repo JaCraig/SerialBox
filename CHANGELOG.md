@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.0"></a>
+## [5.0.0](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.0) (2024-11-19)
+
+### Features
+
+* Updating to .Net 8/9 and workflow updates ([961de76](https://www.github.com/JaCraig/SerialBox/commit/961de765f4d294024f5f2ab53e5f9cfeb02377a0))
+
+### Breaking Changes
+
+* Updating to .Net 8/9 and workflow updates ([961de76](https://www.github.com/JaCraig/SerialBox/commit/961de765f4d294024f5f2ab53e5f9cfeb02377a0))
+
 <a name="4.0.44"></a>
 ## [4.0.44](https://www.github.com/JaCraig/SerialBox/releases/tag/v4.0.44) (2024-11-14)
 
