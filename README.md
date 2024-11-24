@@ -9,7 +9,7 @@ SerialBox is a library designed to simplify serialization in .Net. By default it
 The library can be initialized by registering it with your IoC container during startup. Example code:
 
 ```csharp
-ServiceProvider? ServiceProvider = new ServiceCollection().RegisterAspectus()?.BuildServiceProvider();
+ServiceProvider? ServiceProvider = new ServiceCollection().RegisterSerialBox()?.BuildServiceProvider();
 ```
 
 or
