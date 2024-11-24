@@ -38,6 +38,11 @@ namespace SerialBox.Registration
         /// </summary>
         /// <param name="services">The IServiceCollection to add the services to.</param>
         /// <returns>The IServiceCollection with the registered services.</returns>
-        public static IServiceCollection? RegisterSerialBox(this IServiceCollection? services) => services?.AddAllTransient<ISerializer>()?.AddSingleton<SerialBox>();
+        public static IServiceCollection? RegisterSerialBox(this IServiceCollection? services)
+        {
+            if (services.Exists<SerialBox>())
+                return services;
+            return services?.AddAllTransient<ISerializer>()?.AddSingleton<SerialBox>();
+        }
     }
 }
