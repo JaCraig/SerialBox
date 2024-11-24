@@ -77,7 +77,7 @@
 <p>SerialBox is a library designed to simplify serialization in .Net. By default it supports XML and JSON but can be expanded upon to support other serialization targets as well.</p>
 <h2 id="basic-usage">Basic Usage</h2>
 <p>The library can be initialized by registering it with your IoC container during startup. Example code:</p>
-<pre><code class="lang-csharp">ServiceProvider? ServiceProvider = new ServiceCollection().RegisterAspectus()?.BuildServiceProvider();
+<pre><code class="lang-csharp">ServiceProvider? ServiceProvider = new ServiceCollection().RegisterSerialBox()?.BuildServiceProvider();
 </code></pre>
 <p>or</p>
 <pre><code class="lang-csharp">ServiceProvider? ServiceProvider = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
