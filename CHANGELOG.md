@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.1"></a>
+## [5.0.1](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.1) (2024-11-24)
+
+### Bug Fixes
+
+* update README to correct method name for SerialBox registration ([faeef6d](https://www.github.com/JaCraig/SerialBox/commit/faeef6dcd93bacf85f0c5223f944140aea2de24b))
+
+### Other
+
+* Merge pull request #89 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-617062173c ([69f59bd](https://www.github.com/JaCraig/SerialBox/commit/69f59bdd59365910887062bf04aa7e482434a5b5))
+* bump Microsoft.NET.Test.Sdk ([cba4b58](https://www.github.com/JaCraig/SerialBox/commit/cba4b587e1b639732d92301a5edcdc125f865e1c))
+
 <a name="5.0.0"></a>
 ## [5.0.0](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.0) (2024-11-19)
 
