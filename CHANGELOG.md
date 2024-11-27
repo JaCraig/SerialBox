@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.2"></a>
+## [5.0.2](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.2) (2024-11-24)
+
+### Bug Fixes
+
+* Update .editorconfig and refactor RegisterSerialBox ([304f9db](https://www.github.com/JaCraig/SerialBox/commit/304f9db16e54d7a3953e6469cf4fec7dc336093b))
+
+### Other
+
+* merge ([77ea4b3](https://www.github.com/JaCraig/SerialBox/commit/77ea4b373d8788f3f4328621842d3d4e3f335b25))
+
 <a name="5.0.1"></a>
 ## [5.0.1](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.1) (2024-11-24)
 
