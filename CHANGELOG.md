@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.3"></a>
+## [5.0.3](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.3) (2024-12-09)
+
+### Bug Fixes
+
+* bump husky in /SerialBox in the dependencies group ([66e9230](https://www.github.com/JaCraig/SerialBox/commit/66e923037877777b4620f2c1bbee20862a7790b8))
+
+### Other
+
+* Merge pull request #90 from JaCraig/dependabot/nuget/SerialBox/dependencies-0eb5dce03c ([5d237d6](https://www.github.com/JaCraig/SerialBox/commit/5d237d63158acfe991bb29142a5446e58b926123))
+* Merge branch 'master' of https://github.com/JaCraig/SerialBox ([f7c07df](https://www.github.com/JaCraig/SerialBox/commit/f7c07df6aef866a51acc21511264cbabc2fd71ea))
+* update husky and versionize tool versions in dotnet-tools.json ([921a307](https://www.github.com/JaCraig/SerialBox/commit/921a307a42d7372e7ad4e64738cdc3a60991311e))
+
 <a name="5.0.2"></a>
 ## [5.0.2](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.2) (2024-11-24)
 
