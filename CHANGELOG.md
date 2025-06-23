@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.4"></a>
+## [5.0.4](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.4) (2025-06-23)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([e04930f](https://www.github.com/JaCraig/SerialBox/commit/e04930f00963b7abd10126b4e67c4df3fe590d75))
+
+### Other
+
+* Merge pull request #91 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-637ad84d5b ([c52d643](https://www.github.com/JaCraig/SerialBox/commit/c52d643052194fb5241c8ab753ea0daa09e2e9d0))
+* Merge pull request #92 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-37a7915f86 ([69b8837](https://www.github.com/JaCraig/SerialBox/commit/69b8837d052f8526fb1e07cef55699ac4dab5642))
+* Merge pull request #93 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-2d63af336a ([c7b1961](https://www.github.com/JaCraig/SerialBox/commit/c7b1961b4b965722d64bf327ab3d9824ad674a22))
+* Merge pull request #94 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-293c44675e ([da43491](https://www.github.com/JaCraig/SerialBox/commit/da434911871c997b05fdbe2a432f2ba44fddf041))
+* Merge pull request #95 from JaCraig/dependabot/nuget/SerialBox.Example/dependencies-836e21bf11 ([c9c7a71](https://www.github.com/JaCraig/SerialBox/commit/c9c7a71f31fae60934e82e9e551ce499840513fe))
+* Merge pull request #96 from JaCraig/dependabot/nuget/SerialBox/dependencies-8cf71230ea ([4a00e26](https://www.github.com/JaCraig/SerialBox/commit/4a00e26101fa34df0f3bae541e30d7856b01e3ec))
+* Merge pull request #97 from JaCraig/dependabot/nuget/SerialBox/dependencies-16673a67f6 ([8fa2e20](https://www.github.com/JaCraig/SerialBox/commit/8fa2e20ef18a7efd3133dd46f4faee89b681390c))
+* Merge pull request #98 from JaCraig/dependabot/nuget/SerialBox/dependencies-16673a67f6 ([d027c23](https://www.github.com/JaCraig/SerialBox/commit/d027c23579f1466b74a612296ac38c061c0d26bd))
+* bump the dependencies group in /SerialBox.Tests with 2 updates ([628ebbd](https://www.github.com/JaCraig/SerialBox/commit/628ebbdcbb7593f193d5d98098628a32c9e8586c))
+* bump the dependencies group in /SerialBox.Tests with 2 updates ([057cea0](https://www.github.com/JaCraig/SerialBox/commit/057cea0b6a5066d8a97ac7f9d923f15ed922d4d6))
+* bump the dependencies group in /SerialBox.Tests with 2 updates ([f20c9b9](https://www.github.com/JaCraig/SerialBox/commit/f20c9b98d817da07410b92837de04359ac4ae792))
+* Bump the dependencies group with 1 update ([4259e6e](https://www.github.com/JaCraig/SerialBox/commit/4259e6ebc2d60ef857101174abc4ee67295e87f6))
+* Bump the dependencies group with 1 update ([98c2f56](https://www.github.com/JaCraig/SerialBox/commit/98c2f560376bfc589225bfa276a646bbb97bb2cd))
+* bump versionize in /SerialBox.Example in the dependencies group ([2187aad](https://www.github.com/JaCraig/SerialBox/commit/2187aad4e7f8b3d94a6f3acc5a00f194f40b1199))
+* bump xunit.runner.visualstudio ([ca879f1](https://www.github.com/JaCraig/SerialBox/commit/ca879f149c3bd33ffe5704e0de77da2fd5428167))
+
 <a name="5.0.3"></a>
 ## [5.0.3](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.3) (2024-12-09)
 
