@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.5"></a>
+## [5.0.5](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.5) (2025-06-27)
+
+### Bug Fixes
+
+* **dependabot:** correct formatting of patterns in configuration ([948a428](https://www.github.com/JaCraig/SerialBox/commit/948a428d51a58654e6e6c03c1a03c6ffc69f6f5b))
+
 <a name="5.0.4"></a>
 ## [5.0.4](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.4) (2025-06-23)
 
