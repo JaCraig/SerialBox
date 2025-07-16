@@ -45,7 +45,7 @@
 	  </None>
 	</ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="6.2.3" />
+    <PackageReference Include="Canister.IoC" Version="6.2.4" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
 	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
