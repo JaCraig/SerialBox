@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.8"></a>
+## [5.0.8](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.8) (2026-01-17)
+
+### Bug Fixes
+
+* Bump the dependencies group with 2 updates ([4c9bb49](https://www.github.com/JaCraig/SerialBox/commit/4c9bb492baf287e2e946b7bfb9d23b65e6f2cfbe))
+
+### Other
+
+* Merge pull request #112 from JaCraig/dependabot/nuget/SerialBox/dependencies-b30b2030f9 ([6117f59](https://www.github.com/JaCraig/SerialBox/commit/6117f59b751c0e429f0b0b5055eb23815c40e635))
+* Merge pull request #113 from JaCraig/dependabot/nuget/SerialBox/dependencies-2492a9e0da ([3bb7fc3](https://www.github.com/JaCraig/SerialBox/commit/3bb7fc3fd5d0637613ade6bc2b5d2815ca677301))
+* Bump the dependencies group with 1 update ([29638a1](https://www.github.com/JaCraig/SerialBox/commit/29638a15dc8cad50d1c804a686e422152786ca40))
+* Specify C# language for CodeQL analysis ([fe54865](https://www.github.com/JaCraig/SerialBox/commit/fe548659ed0d9eccae3ed23120292ce9e44424b9))
+
 <a name="5.0.7"></a>
 ## [5.0.7](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.7) (2025-11-13)
 
