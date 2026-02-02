@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.10"></a>
+## [5.0.10](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.10) (2026-02-02)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([93cefe0](https://www.github.com/JaCraig/SerialBox/commit/93cefe0cab9f65b180ad2f992c9bef46662e60b4))
+
+### Other
+
+* Merge pull request #115 from JaCraig/dependabot/nuget/dot-config/dependencies-5dd2fc9133 ([bb8aab0](https://www.github.com/JaCraig/SerialBox/commit/bb8aab08065175630b7450a465f2f01253f241e1))
+* Merge pull request #116 from JaCraig/dependabot/nuget/dot-config/dependencies-5dd2fc9133 ([38614bf](https://www.github.com/JaCraig/SerialBox/commit/38614bf700ff0226b2fca22cdb35d26a9ef49b59))
+* Bump the dependencies group with 1 update ([5cf3273](https://www.github.com/JaCraig/SerialBox/commit/5cf3273422126b7dfc3d1f89623f0c4a192ce194))
+
 <a name="5.0.9"></a>
 ## [5.0.9](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.9) (2026-01-19)
 
