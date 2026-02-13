@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.12"></a>
+## [5.0.12](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.12) (2026-02-13)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([43b550f](https://www.github.com/JaCraig/SerialBox/commit/43b550f0f2c243a082f0ea6f595a4833e4aaf590))
+
+### Other
+
+* Merge pull request #119 from JaCraig/dependabot/nuget/SerialBox/dependencies-3dda76670a ([19d2565](https://www.github.com/JaCraig/SerialBox/commit/19d25650ebc434c862c49a38948c78f766cb0b31))
+
 <a name="5.0.11"></a>
 ## [5.0.11](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.11) (2026-02-12)
 
