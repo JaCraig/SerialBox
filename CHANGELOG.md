@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.1.0"></a>
+## [5.1.0](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.0) (2026-03-29)
+
+### Features
+
+* update workflows and project files ([9bfe620](https://www.github.com/JaCraig/SerialBox/commit/9bfe62040c53f9cebb64423c1b919a46a475d146))
+
+### Other
+
+* Merge pull request #124 from JaCraig/dependabot/nuget/SerialBox/dependencies-cab689477a ([aa96ca1](https://www.github.com/JaCraig/SerialBox/commit/aa96ca17e82bd8c49c83fc689d4ae5eb5f67e779))
+* Merge pull request #125 from JaCraig/dependabot/nuget/dot-config/dependencies-ef2d746a42 ([c511071](https://www.github.com/JaCraig/SerialBox/commit/c5110713a73126b0f82e5c89541209b0b32988f4))
+* Merge pull request #126 from JaCraig/dependabot/nuget/SerialBox/dependencies-2f3b789cbd ([c1ab48a](https://www.github.com/JaCraig/SerialBox/commit/c1ab48a39860ff036f800ac7b286fa9a841f2096))
+* Merge pull request #127 from JaCraig/dependabot/nuget/dot-config/dependencies-1570bdde10 ([f21da93](https://www.github.com/JaCraig/SerialBox/commit/f21da939f5a3103bd4930dbef0e81282a93e8660))
+* Merge pull request #128 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-4bb5c90d9e ([38c8d5e](https://www.github.com/JaCraig/SerialBox/commit/38c8d5e3550a08171a7bc13ed3a135ef19d4902c))
+* Bump the dependencies group with 1 update ([69f6123](https://www.github.com/JaCraig/SerialBox/commit/69f61231e36e13327d6ef93ead419c41211cb2c2))
+* Bump the dependencies group with 2 updates ([30ce1fd](https://www.github.com/JaCraig/SerialBox/commit/30ce1fd2653b84547b0b3080fb40743fa659b308))
+* Bump the dependencies group with 2 updates ([98fe426](https://www.github.com/JaCraig/SerialBox/commit/98fe4262a3437ca92039c8667b339d4f41a4ea55))
+* Bump the dependencies group with 2 updates ([d1eb7ec](https://www.github.com/JaCraig/SerialBox/commit/d1eb7ec569d9f3c1e86bf4e04738afe9fd63a69f))
+* Bump the dependencies group with 3 updates ([f66a193](https://www.github.com/JaCraig/SerialBox/commit/f66a19319b260dbc9458491391d5e8a56e53b83f))
+
 <a name="5.0.13"></a>
 ## [5.0.13](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.0.13) (2026-03-05)
 
