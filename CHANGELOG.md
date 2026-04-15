@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.1.1"></a>
+## [5.1.1](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.1) (2026-04-15)
+
+### Bug Fixes
+
+* Bump the dependencies group with 3 updates ([50658cf](https://www.github.com/JaCraig/SerialBox/commit/50658cfedaa5a7213b3e6b1c7aff2831f835a9b9))
+
+### Other
+
+* Merge pull request #129 from JaCraig/dependabot/nuget/SerialBox/dependencies-773c7d6aa0 ([2c17860](https://www.github.com/JaCraig/SerialBox/commit/2c17860a6f5ee60b2303215bb0da9ed81e0d7e9c))
+* Merge pull request #130 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-92e0d09f4d ([8eb9b8c](https://www.github.com/JaCraig/SerialBox/commit/8eb9b8ce4b69c5c4800af2c27e0136bd1fb4c51c))
+* Merge pull request #131 from JaCraig/dependabot/nuget/SerialBox/dependencies-837fc16059 ([5f597a0](https://www.github.com/JaCraig/SerialBox/commit/5f597a036c64ba6b13c914052fbfc6538726fd3a))
+* Bump the dependencies group with 1 update ([5f3086a](https://www.github.com/JaCraig/SerialBox/commit/5f3086ae57ace3a0e5eb0b1b9e8e308c83fa7c82))
+* Bump the dependencies group with 1 update ([6d46a76](https://www.github.com/JaCraig/SerialBox/commit/6d46a766d005a33a3fc0e56cac7830fcc95548f4))
+
 <a name="5.1.0"></a>
 ## [5.1.0](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.0) (2026-03-29)
 
