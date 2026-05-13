@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.1.6"></a>
+## [5.1.6](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.6) (2026-05-13)
+
+### Bug Fixes
+
+* Bump the dependencies group with 3 updates ([79b064f](https://www.github.com/JaCraig/SerialBox/commit/79b064f617e4e65139354e581d3f560ae0b781c6))
+
+### Other
+
+* Merge pull request #137 from JaCraig/dependabot/nuget/SerialBox/dependencies-f357f12100 ([4adccd5](https://www.github.com/JaCraig/SerialBox/commit/4adccd5b4647d833e4a2a00a09ac52c7223ef33e))
+* Merge pull request #138 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-c40de98e79 ([841663e](https://www.github.com/JaCraig/SerialBox/commit/841663eb959acdb5f98a0826104fd4d1143d2c8b))
+* Merge pull request #139 from JaCraig/dependabot/nuget/SerialBox/dependencies-40ee9bbf4a ([6f40e81](https://www.github.com/JaCraig/SerialBox/commit/6f40e81e3d431b15c695b0f968c69b7cf927668d))
+* Refactor commit message linting logic ([e80cdbd](https://www.github.com/JaCraig/SerialBox/commit/e80cdbd7e7383612eeedc9c15a79af587fab20fd))
+* Bump the dependencies group with 1 update ([2b92608](https://www.github.com/JaCraig/SerialBox/commit/2b92608afb96905a5c7455e683ce2bc9bdd116f2))
+* Bump the dependencies group with 1 update ([afde52b](https://www.github.com/JaCraig/SerialBox/commit/afde52bb814ab95a6032787c9b8adb8fc920168b))
+
 <a name="5.1.5"></a>
 ## [5.1.5](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.5) (2026-04-24)
 
