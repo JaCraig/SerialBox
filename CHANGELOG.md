@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.1.8"></a>
+## [5.1.8](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.8) (2026-05-28)
+
+### Bug Fixes
+
+* **workflows:** remove PERSONAL_ACCESS_TOKEN from workflows ([8562312](https://www.github.com/JaCraig/SerialBox/commit/85623124f17f6655bb09a0165ac68c87e0b4583b))
+
+### Other
+
+* Merge pull request #141 from JaCraig/dependabot/nuget/SerialBox.Tests/dependencies-3fec291e4a ([dbf1668](https://www.github.com/JaCraig/SerialBox/commit/dbf16687a6025e4f16f9d669a576dfe4dfc670f3))
+* Bump the dependencies group with 2 updates ([c6fa2d5](https://www.github.com/JaCraig/SerialBox/commit/c6fa2d5e453c4b0b7f64b5cf98d843fd18d35ba3))
+* **copilot:** add commit message guidelines ([c5ee7c1](https://www.github.com/JaCraig/SerialBox/commit/c5ee7c10beddbb326cb52101aedbd4e9ebbe481a))
+
 <a name="5.1.7"></a>
 ## [5.1.7](https://www.github.com/JaCraig/SerialBox/releases/tag/v5.1.7) (2026-05-14)
 
